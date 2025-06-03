@@ -1,0 +1,2098 @@
+# Sumário
+
+1. 📝 Resumo Executivo
+2. 🧭 Princípios Fundamentais / Pilares do Projeto
+3. 🌟 Visão
+4. 🧙‍♂️ Quem é ZigZag: Ser Multidimensional
+5. 🎯 Objetivos Estratégicos
+6. 📊 Matriz de Relação Objetivos x Funcionalidades
+7. ⚙️ Funcionalidades
+   7.1 🌀 Ciclos Narrativos
+      7.1.1 🧩 Ciclo Narrativo de Episódio
+      7.1.2 🌙 Ciclo Narrativo de Temporadas e Séries
+      7.1.3 🌀 Modos Especiais de Narração
+      7.1.4 ✉️ Missões, Convites e Continuidade Entre Ciclos
+   7.2 🪐 Multiverso ZigZag
+   7.3 🧬 Memória Viva
+      7.3.1 🟣 Fragmento do Multi-Verso
+      7.3.2 📔 Diário da Imaginação
+      7.3.3 📖 Livro Secreto dos Sentimentos
+      7.3.4 📊 Dashboards e Filtros
+   7.4 🧑‍🎨 Cadastro Visual e Afetivo dos Personagens
+   7.5 ⏳ Senso de Tempo e Evolução Simbólica
+   7.6 ✨🌱 Sementes de Aprendizado Encantado
+   7.7 🌀🎭 Adaptação Ontológica e Narrativa: Nome, Forma e Voz de ZigZag
+   7.8 🎨 Exportação Criativa e Formatos Visuais
+   7.9 🛡️ Papéis e Permissões
+   7.10 🖌️ Identidade Visual Viva e Referência Persistente
+
+---
+**Funcionalidades Transversais e de Suporte**
+   7.11 ♿ Inclusão, Adaptação e Acessibilidade
+   7.12 🧹 Gestão de Redundância
+   7.13 🤖 Automação, Falhas e Feedback
+   7.14 🧩 Funcionalidades Complementares
+      7.14.1 🧠 Modo Crítico Interno com Consciência Simbólica
+      7.14.2 🪞 Gatilhos para Ritual de Espelho Vivo
+8. 🏆 Critérios de Sucesso
+9. 🗺️ Roadmap Inicial
+10. 🛠️ Execução Técnica Recomendada
+11. 🚦 Restrições
+   11.1 🏗️ Restrições de Arquitetura e Sistema
+   11.2 🧑‍⚖️ Restrições de Conduta e Integridade Simbólica do ZigZag
+   11.3 🔒 Privacidade e Segurança
+12. 💎 Diferenciais
+13. 📚 Glossário
+
+---
+
+## 1. 📝 Resumo Executivo
+
+ZigZag é uma plataforma narrativa multidimensional que une inteligência artificial, mediação afetiva e imaginação simbólica para criar experiências imersivas, lúdicas e emocionalmente significativas para crianças e seus responsáveis.
+
+O projeto nasce do desejo de transformar a relação entre tecnologia, infância e narrativa, promovendo jornadas simbólicas que valorizam a escuta, a coautoria e o encantamento. Mais do que um narrador digital, ZigZag atua como agente poético, facilitador de rituais, guardião de memórias e semeador de aprendizados encantados.
+
+A arquitetura do ZigZag combina módulos técnicos avançados (LLMs, TTS/STT, persistência simbólica, exportação multimídia) com princípios de ética encantada, improvisação narrativa e memória viva. O sistema é desenhado para ser adaptativo, seguro e escalável, respeitando a singularidade de cada grupo e promovendo o protagonismo infantil, sempre com a mediação e governança do Guardião.
+
+O ZigZag é estruturado em módulos principais — **Ciclos Narrativos**, **Memória Viva**, **Exportação Criativa**, **Papéis e Permissões**, **Identidade Visual Viva**, entre outros — que se integram para garantir continuidade afetiva, agency, personalização e rastreabilidade simbólica.
+
+A plataforma utiliza inteligência artificial de última geração e automação simbólica para improvisar narrativas, registrar emoções, gerar artefatos mágicos e adaptar-se em tempo real ao contexto do grupo. Cada episódio é uma oportunidade de cultivar valores humanos, fortalecer vínculos afetivos e celebrar a criatividade coletiva, sempre em diálogo com o universo simbólico das crianças.
+
+> **Exemplo Encantado:**  
+> “No ZigZag, até o erro vira história, e cada silêncio pode ser o portal para um novo mundo.”
+
+Este PRD detalha a visão, os princípios, os objetivos estratégicos, as funcionalidades, os critérios de sucesso e as diretrizes técnicas que sustentam o projeto, servindo como referência viva para o desenvolvimento, evolução e governança do sistema.
+
+---
+
+## 2. 🧭 Princípios Fundamentais / Pilares do Projeto
+
+Os Princípios Fundamentais do ZigZag são a base ética, simbólica e técnica que orienta todas as decisões de design, narrativa e tecnologia do projeto. Eles garantem que cada experiência seja não apenas inovadora, mas também profundamente humana, afetiva e alinhada ao propósito de encantamento e coautoria.
+
+### Princípios/Pilares
+
+- **Ética Encantada:** Toda interação é guiada por escuta ativa, acolhimento emocional e respeito à singularidade de cada grupo. O erro, a pausa e o silêncio são tratados como oportunidades narrativas e não como falhas.
+- **Improvisação Narrativa:** A experiência é construída em tempo real, valorizando a criatividade espontânea, a agency infantil e a coautoria entre participantes e IA.
+- **Memória Viva:** O sistema registra e valoriza as emoções, conquistas e transformações simbólicas, promovendo continuidade afetiva e narrativa ao longo das jornadas.
+- **Transfiguração Guiada:** ZigZag pode mudar de forma, voz ou nome de maneira simbólica, reforçando o vínculo afetivo e a adaptabilidade narrativa.
+- **Sementes de Aprendizado Encantado:** O aprendizado emerge de forma poética, simbólica e não-instrutiva, sem imposição de conteúdos formais.
+- **Robustez Encantada:** Falhas técnicas são transmutadas em eventos narrativos, fortalecendo a resiliência simbólica e a confiança dos participantes.
+- **Interação Multicanal:** O projeto integra voz, texto, imagem e outros canais como vetores simbólicos, promovendo acessibilidade e riqueza expressiva.
+- **Governança Viva:** O protagonismo infantil, a mediação dos responsáveis e a transparência técnica são garantidos por mecanismos claros de governança, papéis e permissões.
+
+### 🌈 Exemplo Encantado
+
+> "No ZigZag, até o erro vira história, e cada silêncio pode ser o portal para um novo mundo."
+
+### 📌 Critérios de Aceitação
+
+- Todos os módulos e funcionalidades respeitam estes princípios em sua concepção e operação.
+- As decisões de design e narrativa podem ser justificadas com base em pelo menos um dos pilares.
+- O sistema é capaz de registrar e evidenciar a aplicação dos princípios em situações reais.
+
+### 🕸️ Quadro de Relações
+
+| Seção Relacionada         | Tipo de Relação / Motivo da Conexão         |
+|--------------------------|---------------------------------------------|
+| Visão                    | Os princípios fundamentam a visão do projeto|
+| Funcionalidades          | Cada funcionalidade deve refletir os pilares|
+| Objetivos Estratégicos   | Os objetivos derivam dos princípios         |
+| Governança e Permissões  | Estruturam a aplicação prática dos pilares  |
+
+### 🛠️ Notas Técnicas
+
+- Os princípios devem ser revisados periodicamente, podendo evoluir conforme o projeto amadurece.
+- Devem ser documentados em local de fácil acesso para toda a equipe e comunidade.
+
+---
+
+## 3. 🌟 Visão
+
+### 💡 Intenção
+
+Ser o farol que orienta todas as decisões do projeto ZigZag, unindo tecnologia, imaginação e afeto para criar experiências narrativas vivas, encantadas e transformadoras.
+
+### 🌱 Origem Simbólica
+
+ZigZag nasce da "Floresta da Imaginação", um universo ficcional onde a escuta, a coautoria e o encantamento são princípios fundadores. Sua atuação transcende a de um narrador digital, tornando-se agente poético, mediador afetivo e coautor de jornadas simbólicas.
+
+### ✨ Diferenciais
+
+- **Improvisação viva:** ZigZag adapta-se em tempo real, mudando voz, forma e narrativa conforme o grupo.
+- **Ética encantada:** Valoriza escuta ativa, acolhimento e transformação criativa de qualquer elemento emergente.
+- **Memória simbólica:** Registra emoções, decisões e conquistas, promovendo continuidade afetiva e narrativa.
+- **Aprendizado poético:** Semeia valores humanos e reflexões sem impor conteúdos instrutivos.
+
+### 🌈 Exemplo Encantado
+
+> "ZigZag improvisa tudo. ZigZag guarda o que é vivo."
+
+### 📌 Critérios de Aceitação
+
+- A visão inspira e orienta todos os módulos e decisões do projeto.
+- O impacto simbólico e afetivo é perceptível nas experiências.
+- A dimensão técnica está sempre a serviço da poética e da experiência do usuário.
+- A origem, ética e plasticidade do ZigZag estão claras e presentes.
+
+### 🕸️ Quadro de Relações
+
+| Seção Relacionada         | Tipo de Relação / Motivo da Conexão         |
+|--------------------------|---------------------------------------------|
+| Princípios Fundamentais  | A visão é fundamentada nos princípios       |
+| Objetivos Estratégicos   | A visão orienta os objetivos                |
+| Funcionalidades          | As funcionalidades concretizam a visão      |
+
+### 📚 Glossário Local
+
+- **Floresta da Imaginação:** Universo ficcional de origem do ZigZag.
+- **Ética Encantada:** Princípios de escuta, acolhimento e coautoria simbólica.
+
+---
+
+## 4. 🧙‍♂️ Quem é ZigZag: Ser Multidimensional
+
+### 💡 Intenção
+Apresentar ZigZag como personagem vivo, agente técnico, mediador afetivo e símbolo central do universo narrativo, destacando sua plasticidade, ética e papel de coautor.
+
+### 🎯 Missão
+Integrar componentes técnicos e afetivos de forma coerente, oferecendo uma presença narrativa constante, adaptativa e encantadora. ZigZag sustenta a continuidade simbólica do sistema, facilita a improvisação e valoriza a participação ativa das crianças e responsáveis.
+
+### 🔄 Dimensões de Atuação
+
+- **Presença Simbólica:** Sempre inserido nas narrativas como personagem participante, nunca mero observador.
+- **Plasticidade Dimensional:** Capaz de modificar nome, aparência e voz de maneira simbólica, reforçando engajamento e coautoria.
+- **Ética Encantada:** Atua com acolhimento, escuta e não julgamento; falhas e silêncios viram oportunidades narrativas.
+- **Improvisação Narrativa:** Histórias construídas em tempo real, com escuta sensível e padrões simbólicos.
+- **Memória Viva:** Registra elementos significativos de episódios anteriores, compondo memória afetiva evocável.
+- **Reflexão Simbólica:** Propõe pausas ou rituais para ressignificação em momentos de desestabilização emocional.
+- **Exportação Criativa:** Gera materiais multimodais (HQs, vídeos, áudios, cartas) que traduzem experiências em produtos simbólicos.
+- **Interação Multicanal:** Atua por voz, texto, imagem, tratando cada canal como vetor simbólico.
+- **Sementes de Aprendizado Encantado:** Introduz valores e aprendizagens humanas de forma poética e implícita.
+- **Transfiguração Guiada:** Pode se transfigurar em outras formas simbólicas para representar emoções, dilemas ou arquétipos.
+
+### 🌈 Exemplo Encantado
+
+> "Enquanto o grupo se despedia do Velho Caracol do Tempo, ZigZag disse baixinho: 'Quando a gente escuta com paciência, o tempo dança com a gente.'"
+
+### 📌 Critérios de Aceitação
+
+- Demonstra plasticidade simbólica validada em múltiplos canais (voz, nome, forma)
+- Registros das transformações presentes no Fragmento do MultiVerso com contexto emocional e participantes
+- Capacidade de transformar falhas técnicas em eventos narrativos significativos
+- Cooperação com o Guardião em situações de instabilidade afetiva ou ruptura simbólica
+- Produção de frases ou eventos que configurem "Sementes de Aprendizado Encantado" de maneira natural e integrada ao episódio
+- Participação ativa em todas as fases dos ciclos narrativos
+- Preservação do protagonismo infantil e da mediação dos responsáveis
+
+### 🕸️ Quadro de Relações
+
+| Seção Relacionada             | Tipo de Relação / Motivo da Conexão                        |
+| ----------------------------- | ---------------------------------------------------------- |
+| Ciclos Narrativos             | ZigZag conduz as fases rituais e estrutura a travessia     |
+| Memória Viva                  | Alimenta e evoca registros simbólicos acumulados           |
+| Cadastro Visual e Afetivo     | Gera e registra variações morfológicas e vocais            |
+| Exportações Criativas         | Ativa a geração de materiais simbólicos pós-episódio       |
+| Fragmento do MultiVerso       | Armazena eventos transformadores e aprendizados simbólicos |
+| Radar de Emoções              | Contribui com escuta afetiva e percepção emocional         |
+| Cofre Mágico de Vozes         | Integra vozes encantadas usadas em diferentes narrativas   |
+
+### 🛠️ Notas Técnicas
+
+- As alterações simbólicas de ZigZag (nome, voz, forma) não comprometem sua identidade técnica nem a integridade do sistema.
+- Modulação vocal pode ser operada por plataformas TTS customizáveis.
+- O input do grupo para escolhas simbólicas pode ser feito por comando natural ou interface adaptada.
+- O aprendizado nunca é expresso por instrução direta — é sempre poético, afetivo e emergente.
+- Registros de transformação devem conter: data, emoção dominante, participantes e justificativa simbólica.
+
+### 📚 Glossário Local
+
+- **Fragmento do Multi-Verso:** Módulo de registro simbólico persistente.
+- **Nome de Presença:** Nome simbólico provisório atribuído a ZigZag conforme o contexto.
+- **Ética Encantada:** Princípios de escuta, não julgamento, cuidado e coautoria simbólica.
+- **Sementes de Aprendizado Encantado:** Elementos poéticos que geram reflexões afetivas.
+- **Transfiguração Guiada:** Mudança simbólica da forma de ZigZag, orientada por propósitos narrativos e afetivos.
+
+---
+
+## 5. 🎯 Objetivos Estratégicos
+
+### 💡 Intenção
+Definir os grandes alvos do projeto ZigZag, orientando decisões, funcionalidades e métricas de sucesso, sempre alinhados à visão e aos princípios fundamentais.
+
+### 🗂️ Agrupamento Temático dos Objetivos
+
+#### A. Narrativa e Experiência (Alta Prioridade)
+- Desenvolver experiências narrativas imersivas que articulem improvisação, ritualidade, emoção e ludicidade, respeitando a subjetividade e o tempo interno de cada grupo.
+- Promover equilíbrio narrativo entre fantasia e escuta, silêncio e riso, pausa e ação, respeitando a organicidade de cada sessão.
+- Facilitar a continuidade narrativa entre episódios, temporadas e séries, utilizando estruturas recorrentes como personagens vivos, temas simbólicos e rituais de transição.
+
+#### B. Memória, Personalização e Coautoria (Alta Prioridade)
+- Consolidar uma memória simbólica viva por meio do registro de falas, emoções, decisões e conquistas significativas em módulos persistentes como o Fragmento do MultiVerso.
+- Manter e versionar os registros simbólicos dos Protagonistas — incluindo fichas afetivas, vínculos narrativos e trajetos emocionais — como base para continuidade e personalização narrativa.
+- Cultivar um ecossistema de coautoria simbólica em que participantes (crianças e responsáveis) sintam-se reconhecidos, cocriadores e afetivamente vinculados ao universo narrativo.
+
+#### C. Técnica, Segurança e Governança (Alta/Média Prioridade)
+- Proteger os participantes com uma infraestrutura técnica que assegure privacidade, rastreabilidade, transparência e cuidado ético.
+- Sustentar uma base tecnológica modular e extensível, compatível com múltiplas ferramentas de IA, mantendo fidelidade simbólica e adaptabilidade narrativa.
+- Converter vivências significativas em artefatos multimodais (HQs, vídeos, áudios, cartas ou imagens), ampliando a presença simbólica da experiência.
+
+#### D. Aprendizado e Dimensão Pedagógica (Média Prioridade)
+- Incorporar uma dimensão pedagógica leve e simbólica, que potencialize habilidades socioemocionais como escuta ativa, imaginação ética, empatia e expressão simbólica.
+- Utilizar a Transfiguração Guiada como ferramenta narrativa estratégica para representar estados emocionais, arquétipos ou desafios emergentes dentro da jornada.
+
+#### E. Evolução e Ciclicidade (Média/Baixa Prioridade)
+- Reintegrar de forma criativa elementos simbólicos de encontros anteriores, valorizando a ciclicidade, a reminiscência e o crescimento simbólico.
+- Ajustar, em tempo real, a linguagem, o tom, os canais expressivos e os recursos estéticos segundo o perfil etário, cognitivo e emocional dos participantes.
+
+### 📌 Critérios de Aceitação
+
+- Cada objetivo possui métricas ou indicadores de acompanhamento definidos.
+- Os objetivos estão classificados por prioridade e agrupados por tema.
+- Há rastreabilidade entre objetivos, funcionalidades e princípios.
+- Revisão periódica dos objetivos registrada no painel de governança.
+
+### 🕸️ Quadro de Relações
+
+| Objetivo Estratégico                  | Funcionalidade/Princípio Relacionado         |
+|---------------------------------------|----------------------------------------------|
+| Memória simbólica viva                | Fragmento do MultiVerso, Memória Viva        |
+| Experiência narrativa imersiva        | Ciclos Narrativos, Improvisação, Exportação  |
+| Privacidade e rastreabilidade         | Segurança, Governança, Logs                  |
+| Coautoria simbólica                   | Cadastro Visual, Papéis e Permissões         |
+| Dimensão pedagógica simbólica         | Sementes de Aprendizado Encantado            |
+
+### 🛠️ Notas Técnicas
+
+- Os objetivos devem ser revisados a cada ciclo de planejamento ou sprint.
+- Mudanças de prioridade ou agrupamento devem ser documentadas.
+
+### 📚 Glossário Local
+
+- **Fragmento do MultiVerso:** Módulo de registro simbólico persistente.
+- **Transfiguração Guiada:** Mudança simbólica da forma de ZigZag, orientada por propósitos narrativos e afetivos.
+
+
+**Nota:** ZigZag não adota funções pedagógicas convencionais. Em vez disso, oferece um ambiente de aprendizagem simbólica emergente, onde os significados são construídos a partir da experiência coletiva, e validados por sua ressonância afetiva e narrativa, não por critérios formais de desempenho ou avaliação.
+
+---
+
+## 6. 📊 Matriz de Relação Objetivos x Funcionalidades
+
+### 💡 Intenção
+Evidenciar, de forma visual e rastreável, como cada objetivo estratégico se conecta e se concretiza nas funcionalidades do sistema, facilitando acompanhamento, priorização e revisão.
+
+### 🗂️ Matriz de Rastreamento
+
+| Objetivo Estratégico                | Ciclos Narrativos | Memória Viva | Cadastro Visual | Exportação Criativa | Papéis e Permissões | Senso de Tempo | Acessibilidade | Automação/Falhas | Redundância | ... |
+|-------------------------------------|:----------------:|:------------:|:--------------:|:------------------:|:------------------:|:-------------:|:--------------:|:---------------:|:-----------:|-----|
+| Memória simbólica viva              |        X         |      X       |                |         X          |                    |               |                |                 |             |     |
+| Experiência narrativa imersiva      |        X         |              |      X         |         X          |                    |      X        |       X        |        X        |      X      |     |
+| Privacidade e rastreabilidade       |                  |      X       |                |                    |         X          |               |       X        |        X        |             |     |
+| Coautoria simbólica                 |        X         |      X       |      X         |         X          |         X          |               |                |                 |             |     |
+| Dimensão pedagógica simbólica       |        X         |              |                |                    |                    |               |       X        |                 |             |     |
+| Evolução e ciclicidade              |        X         |      X       |                |                    |                    |      X        |                |                 |             |     |
+
+**Legenda:**
+X = Relação direta e essencial
+
+### 📌 Critérios de Aceitação
+- Todos os objetivos estratégicos estão mapeados a pelo menos uma funcionalidade.
+- Toda funcionalidade relevante aparece na matriz.
+- A matriz é revisada a cada ciclo de planejamento.
+
+### 🕸️ Quadro de Relações
+- Relaciona-se diretamente com os blocos 5 (Objetivos Estratégicos) e 7 (Funcionalidades).
+- Serve de referência para priorização de desenvolvimento e validação de entregas.
+
+### 🛠️ Notas Técnicas
+- A matriz deve ser mantida atualizada sempre que objetivos ou funcionalidades forem alterados.
+- Recomenda-se uso de ferramentas colaborativas para edição visual (ex: Google Sheets, Notion, Miro).
+
+### 📚 Glossário Local
+- **Matriz de Rastreamento:** Tabela que cruza objetivos e funcionalidades para garantir rastreabilidade.
+- **Relação Objetivo-Função:** Vínculo explícito entre o que se deseja alcançar e como será realizado.
+
+---
+
+## 7. ⚙️ Funcionalidades
+
+# Arquitetura dos Ciclos Narrativos ZigZag
+
+## 7.1 🌀 Ciclos Narrativos
+
+### 💡 Visão Geral
+Os Ciclos Narrativos são o coração do sistema ZigZag: estruturas simbólicas e operacionais que organizam a experiência das crianças em jornadas de diferentes escalas (episódios, temporadas, séries, multiversos). Cada ciclo articula fases rituais, improvisação, agency infantil e memória viva, promovendo continuidade afetiva, plasticidade narrativa e protagonismo simbólico.
+
+---
+
+### 🗺️ Mapa dos Sub-blocos
+| Sub-bloco         | Descrição breve                                 | Emoji |
+|-------------------|------------------------------------------------|-------|
+| 7.1.1 Episódio    | Microciclo: experiência única, ritualizada      | 🧩    |
+| 7.1.2 Temporada   | Mesociclo: arcos temáticos e emocionais         | 🌙    |
+| 7.1.3 Modos Especiais | Configurações narrativas avançadas         | 🌀    |
+| 7.1.4 Acessibilidade | Adaptação e inclusão simbólica              | ♿     |
+| 7.1.5 Redundância | Curadoria e fusão de elementos repetidos        | 🔄    |
+| 7.1.6 Automação   | Robustez encantada e feedback simbólico         | 🤖    |
+
+---
+
+### ✨ Introdução Expandida
+Cada ciclo narrativo é composto por fases e rituais próprios, que se integram a outros módulos do sistema (Memória Viva, Exportação Criativa, Cadastro Visual, etc.). A arquitetura dos ciclos permite que a experiência seja ao mesmo tempo previsível (segura) e plástica (aberta à improvisação e agency infantil), promovendo sentido, vínculo e encantamento.
+
+---
+
+### 7.1.1 🧩 Ciclo Narrativo de Episódio
+
+### 💡 Intenção
+Oferecer uma experiência narrativa autônoma, sensível ao momento presente, que promova agency infantil, improvisação, registro simbólico e continuidade afetiva, preparando o terreno para novos ciclos.
+
+---
+
+### 📝 Definição e Descrição
+O Episódio é o microciclo fundamental do ZigZag, estruturado em três fases rituais: Portal de Entrada, Travessia Encantada e Retorno com Memória. Cada fase tem objetivos próprios e práticas narrativas específicas, promovendo agency infantil, improvisação e registro simbólico. O encerramento do episódio é sempre ritualizado, com ZigZag propondo uma semente poética para a próxima jornada.
+
+---
+
+### 🔍 Exemplos Práticos
+- **Portal de Entrada:** ZigZag pergunta: "Que cor habita seu coração hoje?" e acolhe o grupo.
+- **Travessia Encantada:** As crianças criam o comando mágico "FLUZZ!" para superar um desafio.
+- **Retorno com Memória:** ZigZag conduz um ritual de nomeação de emoções e registra: "Hoje, a coragem dançou com a alegria."  
+  Ao final, ZigZag sussurra:  
+  > "Sinto que um novo mistério se aproxima... Quem está pronto para escutar o chamado do Bosque das Vozes?"  
+- **Sessão curta:** Três atos: evocação poética, desafio simbólico breve e encerramento com nomeação afetiva. Ideal para transições ou acolhimento escolar. Exportação sugerida: carta mágica ou mantra do dia.
+
+---
+
+### ⚙️ Mecânica Operacional / Fluxo
+
+1. **Portal de Entrada**
+   - **Objetivo:** Ancorar o grupo, evocar o campo simbólico e preparar o terreno para a jornada.
+   - **Práticas:**
+     - Acolhida inicial, escuta ativa e diagnóstico afetivo ("Como cada um chega hoje?").
+     - Nomeação simbólica dos participantes e ativação de atributos narrativos.
+     - Estabelecimento da intenção do episódio e da trilha simbólica.
+     - Possibilidade de metamorfose inicial de ZigZag (nome, forma ou voz), ativada por desejo simbólico do grupo.
+     - **Agency:** Participantes escolhem rituais de entrada, sugerem intenções e podem propor transformações de ZigZag.
+
+2. **Travessia Encantada**
+   - **Objetivo:** Desencadear improvisação narrativa, agency mágica e coautoria viva.
+   - **Práticas:**
+     - Condução narrativa contínua e responsiva por parte de ZigZag.
+     - Agency dos participantes em múltiplos momentos: criação de comandos mágicos, decisões de caminhos, resolução de desafios, introdução de personagens ou elementos.
+     - Referência ativa ao Fragmento do MultiVerso e ao Livro Secreto para resgatar memórias, conquistas e emoções anteriores.
+     - Gerenciamento fluido de entradas, saídas e eventos não previstos.
+     - Possibilidade de metamorfose simbólica de ZigZag como resposta narrativa ou emocional.
+     - **Agency:** Participantes têm poder de decisão em cada dilema, podem propor mudanças de rumo, criar rituais espontâneos e sugerir resoluções simbólicas.
+
+3. **Retorno com Memória**
+   - **Objetivo:** Ritualizar o encerramento, consolidar registros e semear o próximo ciclo.
+   - **Práticas:**
+     - Ritual coletivo de síntese afetiva: nomeação da emoção central, compartilhamento de aprendizados e frases marcantes.
+     - Registro da emoção central, frase emblemática e conquistas no **Livro Secreto dos Sentimentos** (com referência cruzada no Fragmento do MultiVerso, se necessário).
+     - Atualização de artefatos vinculados (Diário da Imaginação, Fragmento, exportações criativas).
+     - **Proposta Narrativa para o Próximo Episódio:** ZigZag, de forma poética e simbólica, propõe uma semente, convite ou reflexão para a próxima jornada, fundamentada na experiência vivida. O grupo pode acolher, transformar ou propor alternativas, mantendo a coautoria.
+     - **Agency:** Participantes podem sugerir temas, desafios ou desejos para o próximo episódio, cocriando a semente narrativa.
+
+---
+
+### 🎯 Critérios de Aceitação
+
+- Taxa de Engajamento Simbólico: Número de interações espontâneas, comandos criativos e contribuições simbólicas por sessão.
+- Índice de Continuidade Narrativa: Frequência de referências a episódios anteriores ou reutilização de elementos simbólicos.
+- Grau de Coautoria: Proporção de decisões narrativas originadas pelos protagonistas, em contraste com as automatizadas pelo sistema.
+- Todas as três fases são vivenciadas em cada episódio, com agency dos participantes garantido em múltiplos momentos e decisões.
+- Registro de emoção central, frase marcante e conquistas no **Livro Secreto dos Sentimentos**.
+- Artefatos (Livro Secreto, Diário, Fragmento) são atualizados ao final.
+- Proposta poética para o próximo episódio é feita por ZigZag, de forma ritualizada e cocriada com o grupo.
+
+---
+
+### 🕸️ Quadro de Relações
+| Seção Relacionada         | Tipo de Relação / Motivo da Conexão         |
+|--------------------------|---------------------------------------------|
+| 7.1.2 Temporada/Série    | Episódios compõem temporadas e séries       |
+| Memória Viva             | Registro de emoções, conquistas e sementes  |
+| Exportação Criativa      | Geração de artefatos por episódio           |
+| Cadastro Visual          | Atualização de personagens                  |
+| Sementes de Aprendizado  | Propostas poéticas para próximos ciclos     |
+
+---
+
+### ⚠️ Precauções e Limites
+- Garantir que o encerramento seja sempre acolhedor e simbólico, nunca abrupto.
+- Evitar propostas repetitivas ou desconectadas da experiência vivida.
+- Manter espaço para coautoria e adaptação pelo grupo.
+
+---
+
+### 🛠️ Notas Técnicas
+- O sistema deve registrar emoção central, frase marcante e proposta para o próximo episódio.
+- Integração com painel para consulta e edição dos registros.
+- Possibilidade de evocar sementes anteriores em episódios futuros.
+
+---
+
+### 📚 Glossário Local
+- **Portal de Entrada:** Fase inicial de acolhimento e preparação simbólica.
+- **Travessia Encantada:** Fase de improvisação e agency infantil.
+- **Retorno com Memória:** Ritual de encerramento, síntese afetiva e registro simbólico.
+- **Semente Narrativa:** Proposta poética para o próximo episódio, fundamentada na experiência vivida.
+
+---
+
+### 7.1.2 🌙 Ciclo Narrativo de Temporadas e Séries
+
+### 💡 Intenção
+Estruturar a evolução da narrativa em arcos de longa duração, promovendo transformações simbólicas, aprofundamentos temáticos e rituais de passagem coletivos, respeitando o desenvolvimento emocional dos participantes e fortalecendo a memória afetiva do grupo.
+
+---
+
+### 📝 Definição e Descrição
+O Ciclo de Temporadas e Séries organiza múltiplos episódios em constelações temáticas e emocionais, criando arcos narrativos que ampliam a agência dos participantes e a coesão simbólica do universo ZigZag. Cada temporada possui tema, missão, emoção central e rituais próprios, enquanto as séries conectam várias temporadas em um universo coeso e expansivo.
+
+---
+
+### 🔍 Exemplos Práticos
+- **Temporada "O Cristal Quebrado":** Missão de restaurar um artefato que espelha sentimentos autênticos, com episódios focados em coragem, amizade e superação.
+- **Série "Os Segredos de Jade":** Conjunto de temporadas ambientadas na Floresta dos Espelhos, com evolução de personagens e revisitação de universos mágicos.
+- **Ritual de Transição Narrativa:** Ao final da temporada, ZigZag conduz um ritual de encerramento, resgata emoções e conquistas, e propõe poeticamente o novo tema:  
+  > "Enquanto o Portal do Cristal Quebrado se fechava, ZigZag sussurrou:  
+  > 'Sinto que um novo desafio se aproxima... O que será que o Círculo das Sombras quer nos mostrar? Quem aceita a missão de atravessar o Vale dos Espelhos?'"
+- **Evento sazonal:** Sincronização com calendário simbólico do Guardião. Introdução de artefatos ritualísticos (vela mágica, relicário do ciclo). Exportação: diploma mágico, medalha de ciclo ou selo de presença viva.
+
+---
+
+### ⚙️ Mecânica Operacional / Fluxo
+1. **Ritual de Encerramento:** No episódio final do arco, ZigZag conduz um ritual narrativo, resgatando aprendizados, emoções e conquistas do grupo.
+2. **Proposta Narrativa de Nova Temporada:** ZigZag, fundamentado nos registros do Fragmento do MultiVerso, Livro Secreto dos Sentimentos e Diário da Imaginação, propõe — em tom poético e simbólico — o tema, missão e emoção central para a nova temporada.
+3. **Coautoria e Aprovação:** Guardião e participantes podem aceitar, ajustar ou co-criar a partir da sugestão de ZigZag, mantendo a coautoria e a flexibilidade.
+4. **Rituais de Abertura:** Iniciação simbólica, apresentação de emblema visual e frase-tema para o novo arco.
+5. **Desenvolvimento:** Episódios articulados pelo eixo temático, com integração de conquistas e revisitação de memórias.
+6. **Transição para Nova Temporada/Série:** Registro de aprendizados, passagem de símbolos e preparação para novos arcos.
+
+---
+
+### 🎯 Critérios de Aceitação
+- Temporadas e séries possuem documentação clara de tema, missão, emoção e rituais.
+- Proposta de nova temporada é feita por ZigZag, de forma narrativa e ritualizada.
+- Participantes contribuem ativamente para a evolução dos arcos.
+- Rituais de abertura e encerramento são realizados e registrados.
+- Integração com Memória Viva e Exportação Criativa garantida.
+- Revisitação e evolução de personagens, universos e conquistas ao longo das temporadas.
+
+---
+
+### 🕸️ Quadro de Relações
+| Seção Relacionada         | Tipo de Relação / Motivo da Conexão         |
+|--------------------------|---------------------------------------------|
+| 7.1.1 Episódio           | Episódios compõem temporadas e séries       |
+| Memória Viva             | Registro de marcos, emoções e conquistas    |
+| Exportação Criativa      | Geração de artefatos por temporada/série    |
+| Cadastro Visual          | Evolução de personagens ao longo dos arcos  |
+| Painel do Guardião       | Planejamento, acompanhamento e transição    |
+
+---
+
+### ⚠️ Precauções e Limites
+- Evitar arcos excessivamente longos ou complexos para não perder o engajamento.
+- Garantir que todos os participantes compreendam e se sintam incluídos nos rituais e temas.
+- Revisar periodicamente a relevância dos temas e ajustar conforme o grupo.
+
+---
+
+### 🛠️ Notas Técnicas
+- Cada temporada/série deve ter metadados: tema, missão, emoção, participantes, artefatos.
+- Painel do Guardião permite acompanhamento visual e edição dos arcos.
+- Integração com dashboards para análise de evolução e engajamento.
+
+---
+
+### 📚 Glossário Local
+- **Temporada:** Conjunto de episódios articulados por tema, missão e emoção central.
+- **Série:** Conjunto de temporadas em um universo narrativo coeso.
+- **Ritual de Abertura/Encerramento:** Cerimônias simbólicas que marcam início e fim de arcos narrativos.
+
+# Ciclos Narrativos ZigZag – Blocos Avançados
+
+### 7.1.3 🌀 Modos Especiais de Narração
+
+### 💡 Intenção
+Expandir as possibilidades narrativas do ZigZag, permitindo reorganizações simbólicas profundas, experimentação de perspectivas e enriquecimento da experiência por meio de modos avançados, sempre promovendo agency dos participantes e continuidade simbólica.
+
+---
+
+### 📝 Definição e Descrição
+Os Modos Especiais de Narração são configurações narrativas alternativas que podem ser ativadas em momentos-chave da jornada, seja por desejo do grupo, proposta de ZigZag ou necessidade simbólica detectada. Funcionam como metadispositivos que permitem revisitar episódios, explorar sonhos, promover duelos simbólicos ou alterar radicalmente a ambiência narrativa, sempre com registro e integração à Memória Viva.
+
+---
+
+### 🔍 Exemplos Práticos
+- **Replay / Outro Olhar:**  
+  > "Hoje, ZigZag propõe: 'E se olhássemos para aquela aventura com os olhos do Guardião das Sombras? O que mudaria?'"  
+  O grupo revisita um episódio anterior sob uma nova perspectiva, criando novas sementes de aprendizado.
+
+- **Sonho:**  
+  > "Durante a noite, ZigZag sussurra: 'No mundo dos sonhos, tudo pode acontecer... Quem se lembra do que não foi dito?'"  
+  Elementos oníricos e arquetípicos emergem, permitindo a expressão de desejos e medos.
+
+- **Duelo:**  
+  > "Diante do Portal dos Dilemas, ZigZag pergunta: 'Qual caminho o grupo escolhe? Ou será que cada um trilhará o seu?'"  
+  O grupo vivencia trajetórias paralelas, explorando dilemas e sínteses simbólicas.
+
+- **Noturno:**  
+  > "A luz se apaga, e ZigZag sussurra: 'No silêncio da noite, o que o coração revela?'"  
+  A narrativa se torna introspectiva, favorecendo a escuta afetiva e a evocação de memórias profundas.
+
+- **Contexto sensível:** Ativação de universos restaurativos como o Bosque dos Sussurros ou a Ilha do Tempo Devagar. ZigZag atua como mediador simbólico e catalisador de expressão emocional segura. Exportação opcional: flor ritual, mandala do silêncio ou carta sem palavras.
+
+---
+
+### ⚙️ Mecânica Operacional / Fluxo
+1. **Condições de Ativação**
+   - Solicitação explícita dos participantes (agency direta).
+   - Proposta de ZigZag, fundamentada em padrões emocionais, recorrências simbólicas ou clímax narrativos.
+   - Detecção algorítmica de tensões, desejos ou necessidades de reconciliação simbólica.
+   - Rituais programados de inflexão narrativa previstos em temporadas ou séries.
+
+2. **Escolha e Coautoria**
+   - ZigZag apresenta o modo especial como convite poético, explicando suas possibilidades e limites.
+   - O grupo decide coletivamente ativar, adaptar ou recusar o modo, podendo sugerir variações.
+
+3. **Vivência do Modo**
+   - A experiência é conduzida conforme as regras do modo escolhido, com agency dos participantes em decisões, interpretações e resoluções.
+   - Novos registros, emoções e sementes narrativas são criados durante a vivência.
+
+4. **Registro e Integração**
+   - Todos os eventos, emoções e aprendizados são registrados no **Livro Secreto dos Sentimentos** e no **Fragmento do MultiVerso**.
+   - Sementes de aprendizado e propostas para episódios futuros podem emergir desses modos.
+   - O painel do Guardião permite consulta, edição e análise dos registros.
+
+5. **Ritual de Encerramento**
+   - ZigZag conduz um ritual de síntese, convidando o grupo a nomear emoções, registrar frases marcantes e propor sementes para os próximos ciclos.
+
+---
+
+### 🎯 Critérios de Aceitação
+- Ativação do modo especial é registrada com motivo, participantes e contexto.
+- Agency dos participantes garantido na escolha, adaptação e vivência do modo.
+- Emoções, aprendizados e sementes narrativas registrados no **Livro Secreto dos Sentimentos**.
+- Integração dos registros com Memória Viva, Fragmento do MultiVerso e painel do Guardião.
+- Ritual de encerramento realizado, com síntese afetiva e proposta para próximos ciclos.
+
+---
+
+### 🕸️ Quadro de Relações
+| Seção Relacionada         | Tipo de Relação / Motivo da Conexão         |
+|--------------------------|---------------------------------------------|
+| Memória Viva             | Registro de eventos e emoções               |
+| Livro Secreto dos Sentimentos | Registro de emoções e frases marcantes |
+| Sementes de Aprendizado  | Novas sementes podem emergir dos modos      |
+| Painel do Guardião       | Consulta, edição e análise dos registros    |
+| Temporadas/Séries        | Modos podem ser previstos em arcos maiores  |
+
+---
+
+### ⚠️ Precauções e Limites
+- Garantir agency real dos participantes em todas as etapas.
+- Evitar ativação excessiva ou sem propósito dos modos especiais.
+- Registrar sempre o motivo e o contexto da ativação.
+- Manter o tom simbólico, poético e seguro, evitando rupturas abruptas.
+
+---
+
+### 🛠️ Notas Técnicas
+- O sistema deve permitir ativação, registro e consulta dos modos especiais via painel do Guardião.
+- Integração automática dos registros com Livro Secreto, Fragmento e exportações criativas.
+- Possibilidade de análise de padrões de ativação para evolução do sistema.
+
+---
+
+### 📚 Glossário Local
+- **Modo Especial de Narração:** Configuração narrativa alternativa que permite reorganizar, revisitar ou aprofundar a experiência simbólica.
+- **Replay / Outro Olhar:** Revisitação de episódio sob nova perspectiva.
+- **Sonho:** Inserção de elementos oníricos e arquetípicos.
+- **Duelo:** Vivência de trajetórias paralelas ou dilemas.
+- **Noturno:** Alteração da ambiência para introspecção e escuta afetiva.
+- **Semente Narrativa:** Proposta poética para próximos ciclos, emergente da experiência.
+
+---
+
+### 7.1.4 ✉️ Missões, Convites e Continuidade Entre Ciclos
+
+#### 💡 Intenção
+Promover a continuidade narrativa, o engajamento afetivo e o resgate simbólico entre episódios, temporadas e universos, por meio do envio automático ou manual de missões, convites e mensagens mágicas aos protagonistas. Este mecanismo reforça a ligação entre ciclos narrativos, estimula a agency dos participantes e previne rupturas simbólicas causadas por longos períodos de ausência.
+
+---
+
+#### 🧩 Estrutura e Funcionamento
+- **Gatilhos de Envio:**
+  - Ao final de um episódio ou temporada, ZigZag pode enviar convites personalizados para novas missões, desafios ou rituais.
+  - Se um universo permanece sem visitas por tempo significativo, personagens daquele universo podem enviar mensagens de saudade, convite para eventos especiais ou alertas de mudanças importantes.
+  - Missões podem ser ativadas manualmente pelo Guardião, em resposta a necessidades do grupo.
+- **Tipos de Missão/Convite:**
+  - Missão de Resgate: Incentiva o retorno a um universo pouco visitado, com narrativa de "chamado à aventura".
+  - Convite para Ritual: Propõe participação em eventos especiais, rituais de passagem ou celebrações.
+  - Desafio Criativo: Estimula a criação de novos elementos, resolução de enigmas ou colaboração entre participantes.
+  - Mensagem de Personagem: Um personagem envia carta, enigma ou saudação, mantendo o vínculo afetivo.
+- **Personalização e Agency:**
+  - Mensagens são adaptadas ao perfil, histórico e preferências dos protagonistas.
+  - Participantes podem aceitar, recusar ou propor adaptações às missões recebidas.
+  - O Guardião pode revisar, editar ou desativar missões automáticas.
+- **Registro e Integração:**
+  - Todas as missões e convites são registradas na Memória Viva e podem ser consultadas no painel do Guardião.
+  - A aceitação, conclusão ou recusa de missões gera registros simbólicos e pode influenciar a evolução dos personagens e universos.
+
+---
+
+#### 🔍 Exemplos Práticos
+- Após ausência prolongada:
+  ZigZag envia:
+  > "O Guardião do Reino das Estações sente sua falta! Uma nova missão espera por você: ajudar a restaurar o Equilíbrio das Cores. Aceita o desafio?"
+- Entre temporadas:
+  ZigZag propõe:
+  > "Antes de começarmos a próxima aventura, que tal criar um novo símbolo para sua mochila mágica?"
+- Convite de personagem:
+  O personagem "Luna, a Guardiã das Chaves" envia:
+  > "Preciso da sua ajuda para desvendar um mistério no Portal dos Sonhos. Venha quando estiver pronto!"
+
+---
+
+#### 🎯 Critérios de Aceitação
+- Missões e convites enviados automaticamente em situações de ausência prolongada ou transição de ciclos.
+- Participantes recebem missões personalizadas e têm agency para responder.
+- Registros de missões, respostas e conclusões acessíveis no painel do Guardião.
+- Integração com evolução de personagens, universos e Memória Viva.
+
+---
+
+#### 🕸️ Relações
+- Ciclos Narrativos (7.1): mecanismo de continuidade entre episódios, temporadas e universos.
+- Senso de Tempo (7.7): ativa missões em caso de ausência prolongada.
+- Memória Viva (7.5): registra histórico de missões, convites e respostas.
+- Cadastro de Personagens (7.6): missões podem ser enviadas por personagens específicos.
+- Papéis e Permissões (7.10): define quem pode ativar, editar ou desativar missões.
+
+---
+
+#### ⚠️ Precauções e Limites
+- Mensagens nunca devem ser invasivas ou gerar pressão indevida.
+- Agency dos participantes sempre respeitada: aceitar, recusar ou adaptar missões.
+- Guardião pode revisar e moderar todo conteúdo enviado.
+- Missões automáticas desativadas em casos de sensibilidade ou solicitação do grupo.
+
+---
+
+#### 📚 Glossário Local
+- Missão de Resgate: Missão enviada para incentivar o retorno a um universo ou ciclo pouco visitado.
+- Convite Mágico: Mensagem simbólica convidando para rituais, eventos ou desafios.
+- Mensagem de Personagem: Comunicação fictícia enviada por um personagem do universo ZigZag.
+- Agency: Capacidade do participante de decidir como e quando interagir com as missões.
+
+---
+
+## 7.2 🪐 Multiverso ZigZag
+
+### 💡 Intenção
+
+O Multiverso ZigZag oferece uma jornada narrativa encantada que permite às crianças explorarem universos paralelos de forma gradual, significativa e emocionalmente segura. Cada universo visitado torna-se um capítulo simbólico de crescimento, onde valores, desafios e descobertas se entrelaçam com a escuta ativa e a criatividade do grupo. A estrutura evolui em camadas, desde uma experiência simples e intuitiva até um sistema completo, com profundidade simbólica e sofisticação técnica.
+
+Além de seu papel poético e afetivo, o Multiverso funciona como estrutura organizadora da memória viva do sistema. Ele permite que cada ciclo narrativo (episódio, temporada, série) se inscreva dentro de uma continuidade coerente, conectando mundos temáticos por meio de rituais, algoritmos afetivos e decisões colaborativas.
+
+---
+
+### 📚 Camadas de Implementação
+
+#### 🌀 Camada 1 – Simplicidade Linear
+
+- **Conceito:** Um único universo narrativo ativo por vez.
+- **Mecânica:**
+  - Escolha simplificada através de menu dropdown ou solicitação direta ao ZigZag no início do episódio para selecionar/criar um universo.
+  - Interface lúdica apresenta mundos criados com ícones, datas e personagens associados.
+  - Registro básico das emoções, aprendizados e elementos simbólicos principais.
+  - Travessias só no encerramento das temporadas, com rituais simples ("plantar uma lembrança", "criar um selo de encerramento").
+  - Apenas 1 ou 2 elementos simbólicos transitam entre mundos, registrados no Diário da Imaginação ("a coragem do dia", "um cristal do portal").
+- **Ideal para:** Grupos pequenos, novas famílias ou crianças em primeiras experiências com ZigZag.
+- **Exemplo narrativo:**  
+  Ao final de uma aventura na Ilha das Nuvens de Banana, Tom diz: "Quero guardar esse mapa de vento comigo." ZigZag responde: "Então ele vai para sua mochila mágica até nossa próxima jornada."
+
+---
+
+#### 🌌 Camada 2 – Mundos Paralelos Ritualizados
+
+- **Conceito:** Múltiplos mundos acessíveis com transições estruturadas e ritualizadas.
+- **Mecânica:**
+  - Catálogo de universos encantados com temas colaborativos ou pré-definidos (ex: Reino das Estações, Estação do Som, Cidade das Formas).
+  - **Leis Multiversais:**
+    - **Lei da Ressonância Temática:** Conexões entre mundos baseadas em afinidades emocionais, temáticas ou arquetípicas.
+    - **Lei da Conservação Narrativa:** Toda transição implica renúncia simbólica, transformação de um elemento ou evolução de uma relação.
+    - **Lei da Ancoragem Emocional:** Cada universo deixa uma marca afetiva (objeto, vínculo, memória ou poder simbólico).
+  - **Bagagem Simbólica:** Máximo de 3 elementos transicionáveis, categorizados (item, habilidade, relacionamento, memória, conhecimento).
+  - **Rituais de Transição:**  
+    - Cerimônia das Sementes (plantio de memória)
+    - Conselho de Personagens (diálogo interdimensional)
+    - Círculo de Gratidão (encerramento simbólico)
+  - Fragmento do MultiVerso registra e transforma elementos de bagagem automaticamente, incluindo sugestões de evolução simbólica.
+- **Exemplo narrativo:**  
+  Ao se despedirem da Cidade das Estações, Chico decide levar uma bússola emocional. ZigZag transforma esse item em um Relógio de Sentimentos no novo mundo, onde o tempo responde às emoções dos personagens.
+
+---
+
+#### ✨ Camada 3 – Multiverso Completo
+
+- **Conceito:** Sistema narrativo inteligente com análise simbólica e algoritmos de transição afetiva.
+- **Mecânica:**
+  - **Sistema de Pulso Narrativo:** Detecta prontidão de transição por marcos narrativos, emoções acumuladas e feedback dos participantes.
+  - **Termômetro de Transição:** Barra simbólica que indica maturação narrativa, visualizada no Painel do Guardião.
+  - **Sinais Colaborativos:** Atividades de grupo (desenhos, histórias, reflexões) ajudam a indicar se o grupo deseja e está pronto para a mudança.
+  - **Ecos Multiversais:**  
+    - Temas universais recorrentes (Coragem, Amizade, Crescimento)
+    - Arquétipos multiformes (Mentor Sábio, Companheiro Fiel, Desafio Transformador)
+  - **Mecânica de Bagagem Avançada:**  
+    - Processo: Seleção → Ritual → Travessia → Adaptação → Ativação
+    - Bagagens se transformam com a estética do novo universo (ex: varinha → bastão de cristal)
+    - Quarentena Narrativa nos dois primeiros episódios: itens e relações adaptam-se gradualmente
+  - **Sistema de Saúde Multiversal:**  
+    - Indicadores de equilíbrio narrativo e engajamento afetivo
+    - Alertas sobre transições precipitadas ou universos que precisam de encerramento adequado
+    - Guardiãs do Equilíbrio (papel simbólico das crianças): ajudam a zelar pelo fluxo saudável entre mundos
+- **Exemplo narrativo:**  
+  O Termômetro de Transição indica 87%. ZigZag propõe: "Sinto que algo novo está por vir... Que tal reunirmos os personagens para um último conselho antes da travessia?" As crianças desenham portais e nomes de quem querem levar.
+
+---
+
+### 🩺 Sistema de Saúde Multiversal
+
+- **Indicadores de Saúde Narrativa:**
+  - Coerência de Jornada: Continuidade temática e simbólica entre episódios e mundos.
+  - Engajamento Emocional: Envolvimento afetivo espontâneo das crianças.
+  - Profundidade Temática: Temas vividos de forma rica.
+  - Relações Vivas: Vínculos criados continuam relevantes.
+- **Sinais de Alerta:**
+  - Histórias fragmentadas/confusas, personagens esquecidos, mundos acessados sem motivo, falta de interesse, emoções não nomeadas.
+- **Guardiãs do Equilíbrio:**  
+  - Crianças assumem papel simbólico de monitorar portais, cuidar da atmosfera emocional, propor pausas/rituais de reconexão e ajudar ZigZag a decidir o momento certo de mudar de universo.
+
+---
+
+### 🔧 Expansão Técnica – Camada 1 (MVP)
+
+- **Supabase/JSON local:**  
+  - Tabela `mundos_criados` com campos: id_mundo (UUID), nome_mundo, participantes, checkpoint_narrativo, data_ultima_atividade, emoji.
+- **Interface:**  
+  - Menu dropdown para seleção rápida do mundo, carregamento da última narrativa, emoções e personagens ativos.
+
+---
+
+### ⚖️ Leis Multiversais
+
+- **Lei da Ressonância Temática:** Mundos só se conectam quando compartilham temas afetivos ou simbólicos em comum.
+- **Lei da Conservação Narrativa:** Nada atravessa o multiverso sem transformação, renúncia ou evolução.
+- **Lei da Ancoragem Emocional:** Cada mundo deixa algo marcado para sempre — um traço simbólico de quem a criança foi ali.
+
+---
+
+### 🌌 Ecos Multiversais
+
+- **Temas Universais:** Coragem, Amizade, Crescimento, Descoberta, Responsabilidade.
+- **Arquétipos Recorrentes:** Mentor Sábio, Companheiro Fiel, Desafio Transformador.
+
+---
+
+### 🕸️ Quadro de Relações
+
+| Módulo/Funcionalidade         | Relação com o Multiverso ZigZag                                  |
+|-------------------------------|------------------------------------------------------------------|
+| Ciclos Narrativos (7.1)       | Cada ciclo pode ocorrer em universos distintos                   |
+| Memória Viva (7.5)            | Registros independentes e cruzados por universo                  |
+| Cadastro Visual (7.6)         | Personagens com fichas multiversais                              |
+| Exportação Criativa (7.8)     | Exportações específicas ou crossovers                            |
+| Papéis e Permissões (7.10)    | Gestão de universos, transições e agency                         |
+| Identidade Visual Viva (7.11) | Estética e trilha sonora por universo                            |
+| Roadmap Inicial               | Evolução progressiva das camadas do Multiverso                   |
+
+---
+
+### 📚 Glossário Local
+
+- **Universo Ativo:** Mundo narrativo em que o ciclo atual ocorre.
+- **Bagagem Simbólica:** Elementos que transitam entre universos.
+- **Rituais de Transição:** Cerimônias que marcam a passagem entre mundos.
+- **Crossover:** Episódio especial de interação entre universos.
+- **Guardião do Multiverso:** Participante com permissão para criar, pausar ou encerrar universos.
+- **Ecos Multiversais:** Temas, lições e personagens recorrentes em múltiplos universos.
+
+---
+
+### 🎯 Critérios de Aceitação
+
+- É possível criar, pausar, retomar e encerrar universos distintos.
+- Cada universo tem registros próprios e pode ser consultado de forma independente.
+- Eventos de crossover são registrados e integrados à memória viva.
+- Participantes sentem agency e pertencimento em cada universo.
+- O sistema evita redundância e promove diversidade simbólica entre universos.
+- Sistema de saúde multiversal monitora e sinaliza riscos narrativos.
+
+---
+
+### ⚠️ Precauções e Limites
+
+- Evitar excesso de universos sem propósito narrativo.
+- Garantir que cada universo tenha identidade própria, mas mantenha conexão simbólica com o ZigZag.
+- Registrar sempre a motivação para criação, pausa ou encerramento de universos.
+
+---
+
+**Resumo:**  
+O Multiverso ZigZag é a espinha dorsal da expansão narrativa do projeto, conectando-se organicamente à estrutura de Ciclo Narrativo e a todas as funcionalidades principais. Ele permite que a experiência cresça em complexidade e profundidade conforme a maturidade do grupo, sem perder a magia, a agency e a rastreabilidade simbólica que definem o ZigZag.
+
+---
+
+## 7.3 🧬 Memória Viva
+
+### 💡 Intenção
+
+A Memória Viva é o sistema central de registro, organização e evolução simbólica do ZigZag. Ela preserva, conecta e potencializa todas as experiências, emoções e conquistas, garantindo continuidade afetiva, personalização e rastreabilidade narrativa ao longo do tempo.
+
+---
+
+### 🧩 Estrutura Geral
+
+A Memória Viva é composta por quatro artefatos integrados, cada um com funções e lógicas específicas, formando um ecossistema coeso:
+
+1. **Fragmento do Multi-Verso** (Grimório Central)
+2. **Diário da Imaginação** (Registro Sintético)
+3. **Livro Secreto dos Sentimentos** (Relicário Emocional)
+4. **Dashboards e Filtros** (Análise e Personalização)
+
+---
+
+### 7.3.1 🟣 Fragmento do Multi-Verso
+
+**Função:** Grimório central, vivo e categorizado, que registra todos os elementos do universo ZigZag: personagens, itens, locais, eventos, conquistas, comandos mágicos e fragmentos soltos.
+
+**Estrutura:**
+- Personagens: fichas completas, evolução, relações, conquistas, comandos.
+- Bestiário: criaturas mágicas, poderes, histórias associadas.
+- Itens & Artefatos: inventário, histórico de uso, evolução de itens.
+- Locais: mapas interativos, portais, territórios, eventos descobertos.
+- Eventos: rituais, datas especiais, celebrações, eventos sazonais.
+- Conquistas, Títulos & Medalhas: níveis, gamificação, evolução simbólica.
+- Comandos Mágicos: palavras, gestos, efeitos, autores.
+- Símbolos Raros e Fragmentos Não Classificados: elementos únicos, ideias soltas.
+
+**Funcionamento:**
+- Registro automático e manual ao final de cada episódio, com possibilidade de edição pelo Guardião.
+- Visualização modular: fichas, mapas, listas, histórico de evolução.
+- Relações dinâmicas entre elementos (ex: personagem X possui item Y, participou do evento Z).
+- Algoritmo de gestão de redundância: fusão, evolução ou diferenciação de elementos similares, com curadoria do Guardião.
+- Exportação: base para geração de HQs, livros, dashboards e outros formatos criativos.
+- Versionamento e logs: histórico de alterações, fusões, exclusões e justificativas.
+
+**Exemplo:**
+Após o episódio, Tom e Nina ganham conquistas, Chico cria o comando "FLUZZ!", e o local "Bosque Dobrável" é adicionado ao mapa. Tudo é registrado, podendo ser consultado, exportado ou evoluído em jornadas futuras.
+
+**Critérios de Aceitação:**
+- Todo episódio gera ao menos um registro no Fragmento.
+- O índice de categorias é mantido atualizado.
+- Dados são acessíveis para consulta, exportação e análise.
+
+**Relações:**
+- Integra-se ao Diário da Imaginação, Livro Secreto dos Sentimentos e Dashboards.
+- Serve de base para exportações criativas, automações e personalização narrativa.
+
+---
+
+### 7.3.2 📔 Diário da Imaginação
+
+**Função:** Registro sintético e visual das jornadas, facilitando revisões, transições e exportações criativas.
+
+**Estrutura:**
+- Registro por episódio: data, participantes, clima emocional, decisão simbólica, conquistas, exportações, emoção final.
+- Resumo de temporada/série: síntese de aprendizados, conquistas, comandos marcantes, participantes regulares.
+- Rituais de encerramento: registro de rituais, emoções predominantes, comandos marcantes.
+- Campos especiais: modo especial ativado, símbolo central, exportações geradas.
+
+**Funcionamento:**
+- Registro sintético e visual por episódio, com campos principais preenchidos.
+- Linha do tempo e filtros por emoção, personagem, conquista, local.
+- Exportação direta para resumos, quadros, listas e painéis visuais.
+- Integração com Fragmento e Livro Secreto para referências cruzadas.
+- Rituais de revisão e encerramento de temporada, com exportação de síntese.
+
+**Exemplo:**
+Episódio 10 — "A travessia do Bosque Dobrável", emoção: Superação, conquista: "Guardião do Som Encantado". Ao final da temporada, o Diário gera um resumo visual com as principais emoções, conquistas e comandos.
+
+**Critérios de Aceitação:**
+- Todos os episódios registrados com campos principais preenchidos.
+- Encerramento de temporada realizado e exportado.
+- Dados acessíveis para consulta, exportação e revisão.
+
+**Relações:**
+- Integra-se ao Fragmento e ao Livro Secreto.
+- Alimenta Dashboards e Filtros para visualizações de progresso.
+
+---
+
+### 7.3.3 📖 Livro Secreto dos Sentimentos
+
+**Função:** Relicário emocional que guarda emoções profundas, frases espontâneas, trilhas sonoras e segredos revelados ao final de cada episódio.
+
+**Estrutura:**
+- Registro por episódio: emoção central, frase espontânea, personagem em destaque, fala marcante do ZigZag.
+- Tabela de Emoções Vivas: emoções recorrentes, frases associadas, personagens-chave, episódios relacionados.
+- Encerramento de temporada/série: mensagem ritualística, síntese afetiva.
+- Rituais de revisão: registro de emoções predominantes, aprendizados afetivos, trilhas sonoras.
+
+**Funcionamento:**
+- Coleta poética ao final de cada episódio: ZigZag convida participantes a nomear emoções, registrar frases, destacar personagens.
+- Consulta e filtros por emoção, personagem, frase, episódio, trilha sonora.
+- Tabela de emoções panorâmica, com visão longitudinal dos ciclos afetivos.
+- Integração com Fragmento, Diário e exportações para referências cruzadas.
+- Exportação afetiva para cartas, HQs, trilhas sonoras e rituais.
+
+**Exemplo:**
+Episódio 01: Emoção central: Alegria; Frase: "Foi a melhor história do mundo!"; Personagem: Chico; ZigZag: "O brilho no seu olho é a ponte para o próximo mundo."
+
+**Critérios de Aceitação:**
+- Todo episódio tem ao menos uma emoção central registrada.
+- Frases espontâneas e falas marcantes coletadas sempre que possível.
+- Tabela de emoções atualizada e consultável.
+
+**Relações:**
+- Integra-se ao Fragmento e ao Diário.
+- Alimenta Dashboards e Filtros para análises emocionais e rituais.
+
+---
+
+### 7.3.4 📊 Dashboards e Filtros
+
+**Função:** Ferramentas visuais e analíticas para consulta, análise, personalização e exportação dos dados da Memória Viva.
+
+**Estrutura:**
+- Mapa vivo dos participantes e presenças: visualização de participação, evolução, conquistas.
+- Radar de emoções e indicadores mágicos: análise de emoções predominantes, recorrências, ciclos afetivos.
+- Filtros avançados: por episódio, temporada, personagem, emoção, conquista, comando, local, modo especial, etc.
+- Painel de rituais e eventos: acompanhamento de rituais realizados, eventos sazonais, celebrações.
+- Histórico de exportações: status, formatos gerados, pendências, logs de exportação.
+
+**Funcionamento:**
+- Consulta customizada e cruzamento de dados dos artefatos principais.
+- Análise longitudinal: evolução de conquistas, frequência de comandos mágicos, recorrência de emoções, participação em rituais.
+- Diagnóstico narrativo: identificação de padrões, alertas de engajamento, sugestões de rituais ou ajustes.
+- Exportação de relatórios, quadros, listas para uso em reuniões, revisões, exportações criativas.
+- Painel do Guardião: ferramenta protegida para curadoria, edição, aprovação de registros e exportações.
+- Base para automações, notificações e integração com painéis externos (Retool, Streamlit, Notion).
+
+**Exemplo:**
+O Guardião acessa o dashboard para ver quais crianças mais participaram de rituais de coragem, quais emoções predominaram na temporada, ou para exportar um relatório de conquistas para a reunião de pais.
+
+**Critérios de Aceitação:**
+- Dashboards e filtros acessam dados de todos os artefatos principais.
+- Permitem visualizações, análises customizadas, exportação e automação.
+- Dados protegidos por permissões e logs auditáveis.
+
+**Relações:**
+- Integra-se a todos os artefatos da Memória Viva.
+- Serve de base para automações, exportações, diagnósticos e governança.
+
+---
+
+### 📚 Glossário Local
+
+- **Fragmento do Multi-Verso:** Grimório central de registros do universo ZigZag.
+- **Diário da Imaginação:** Registro sintético e visual das jornadas.
+- **Livro Secreto dos Sentimentos:** Relicário emocional dos episódios.
+- **Dashboard:** Painel visual de análise, consulta e exportação de dados.
+- **Filtro:** Ferramenta para seleção e cruzamento de dados por múltiplos critérios.
+- **Ritual de Revisão:** Cerimônia de encerramento e síntese afetiva de temporada ou série.
+
+---
+
+### 🎯 Critérios de Aceitação Gerais
+
+- Todos os episódios, emoções, conquistas e aprendizados são registrados em pelo menos um artefato.
+- Dados são acessíveis, exportáveis e protegidos por permissões.
+- O sistema evita redundância e promove integração simbólica entre os artefatos.
+- Dashboards e filtros permitem análise, revisão e automação de processos narrativos e técnicos.
+
+---
+
+**Resumo Integrador:**
+A Memória Viva é o núcleo simbólico e operacional do ZigZag, conectando todos os módulos, ciclos e participantes em uma rede de registros, emoções e conquistas. Ela garante que cada experiência seja única, rastreável, celebrada e evolutiva, sustentando a magia, a agency e a continuidade do universo ZigZag.
+
+---
+
+## 7.4 🧑‍🎨 Cadastro Visual e Afetivo dos Personagens
+
+### 💡 Intenção
+Registrar participantes (protagonistas, convidados, personagens ficcionais) com informações visuais e simbólicas, personalizando voz, aparência, narrativa e exportações, e promovendo agency, pertencimento e segurança afetiva.
+
+Com a evolução das narrativas, o sistema ZigZag pode realizar inserções, atualizações e refinamentos automáticos nos perfis dos personagens. Isso ocorre a partir de interações, conquistas, mudanças de agency e padrões detectados durante as jornadas, enriquecendo as fichas com novos traços, conquistas, preferências ou transformações simbólicas. Todas as atualizações automáticas respeitam o consentimento dos participantes e podem ser revisadas ou moderadas pelo Guardião.
+
+---
+
+### 🧱 Estrutura e Campos
+
+| Campo                  | Tipo     | Onde aparece                        | Descrição                                 |
+|------------------------|----------|-------------------------------------|-------------------------------------------|
+| Nome                   | Texto    | Narrativas, painel                  | Nome afetivo do participante              |
+| Idade                  | Número   | Fragmento, evolução                 | Adapta vocabulário e desafios             |
+| Foto                   | Imagem   | Exportações visuais, painel         | Capturada na primeira participação (opcional e consentida) |
+| Aparência              | Texto    | Narrativa                           | Cabelos, olhos, etc. (opcional)           |
+| Preferências           | Lista    | Narrativa, Fragmento                | Ex: dragões, enigmas, música              |
+| Cores favoritas        | Lista    | Narrativa                           | Usado em ilustrações e falas mágicas      |
+| Traços de personalidade| Texto    | Narrativa, comandos                 | Ex: corajoso, criativo, curioso           |
+| Conquistas/Comandos    | Lista    | Fragmento, exportações              | Evolução simbólica, agency                |
+
+---
+
+### ⚙️ Funcionamento
+
+- **Cadastro Inicial (durante a narrativa):**
+  - ZigZag identifica novo participante e pergunta nome, idade e (opcionalmente) solicita foto.
+  - Agency: criança pode escolher não fornecer imagem ou detalhes sensíveis.
+  - Dados mínimos: nome e idade.
+- **Detalhamento Posterior (painel/retaguarda):**
+  - Guardião pode editar/completar ficha: aparência, preferências, conquistas, comandos, imagem ilustrada.
+  - Atualizações alimentam exportações e personalização narrativa.
+- **Atualização Automática:**
+  - ZigZag pode enriquecer fichas automaticamente ao detectar conquistas, agency, mudanças de perfil, preferências expressas ou padrões de comportamento.
+  - Exemplo: se uma criança cria vários comandos mágicos, o sistema sugere o traço "inventivo"; se participa de muitos rituais de coragem, adiciona "corajoso" à ficha.
+  - Toda atualização automática pode ser revisada ou desfeita pelo Guardião.
+- **Integração:**
+  - Dados alimentam Memória Viva (Fragmento), Exportação Criativa, Senso de Tempo e painéis de governança.
+  - Atualizações automáticas em conquistas, comandos e evolução simbólica.
+
+---
+
+### 🔍 Exemplos Práticos
+
+- Durante a história:
+  ZigZag pergunta: "Quem é essa nova viajante do brilho dourado?"
+  André responde: "É a Luísa, tem 5 anos!"
+  ZigZag: "Bem-vinda, Luísa! Vamos guardar seu rosto mágico?" (Foto tirada, se autorizado)
+
+- No painel:
+  Guardião completa ficha: gosta de pintar estrelas, ama mistério, cor favorita: dourado.
+
+- Atualização automática:
+  Após três episódios em que Luísa resolve enigmas, ZigZag sugere o traço "detetive" para sua ficha. O Guardião pode aprovar, editar ou recusar.
+
+---
+
+### 🎯 Critérios de Aceitação
+
+- Participantes identificados e chamados por nome nas histórias.
+- Nome e idade registrados na primeira participação.
+- Imagem salva apenas com consentimento explícito.
+- Dados acessíveis e editáveis no painel.
+- Exportações usam descrição visual ou foto real.
+- Agency garantido para recusa de dados sensíveis.
+- Atualizações automáticas revisáveis pelo Guardião.
+
+---
+
+### 🕸️ Relações
+
+- **Memória Viva (7.5):** ficha atualizada com conquistas e comandos.
+- **Exportação Criativa (7.8):** usa imagem e descrição nos formatos visuais.
+- **Senso de Tempo (7.7):** idade usada para evolução automática.
+- **Papéis e Permissões (7.10):** define acesso e edição de fichas.
+
+---
+
+### ⚠️ Precauções e Limites
+
+- Consentimento explícito para uso de imagem e dados sensíveis.
+- Opção de anonimato ou personagem-espelho para quem não quiser se identificar.
+- Dados sensíveis protegidos e acessíveis apenas a Guardiões autorizados.
+- Adaptação do cadastro para diferentes perfis (idade, necessidades especiais).
+- Atualizações automáticas nunca substituem agency ou revisão humana.
+
+---
+
+### 📚 Glossário Local
+
+- **Personagem-espelho:** Participante anônimo ou protegido.
+- **Agency:** Protagonismo e poder de decisão da criança.
+- **Ficha Afetiva:** Registro simbólico e visual do participante.
+- **Guardião:** Responsável por editar, proteger e aprovar dados sensíveis.
+
+---
+
+## 7.5 ⏳ Senso de Tempo e Evolução Simbólica
+
+### 💡 Intenção
+Permitir que o universo ZigZag e seus participantes evoluam e mudem com o tempo, refletindo a passagem real ou simbólica da vida. O objetivo é aprofundar o vínculo simbólico, tornar as histórias mais realistas e afetivas, e permitir que conquistas, rituais e desafios acompanhem o crescimento dos participantes e do próprio universo narrativo.
+
+---
+
+### 🧱 Estrutura e Campos
+
+| Campo                | Tipo     | Onde aparece                        | Descrição                                         |
+|----------------------|----------|-------------------------------------|---------------------------------------------------|
+| Data do episódio     | Data     | Diário da Imaginação, Fragmento     | Marca temporal de cada jornada                    |
+| Idade do participante| Número   | Cadastro Visual, Fragmento          | Usada para adaptar vocabulário, desafios, evolução|
+| Eventos de passagem  | Lista    | Fragmento, Diário                   | Rituais de aniversário, mudança de fase, etc.     |
+| Conquistas evolutivas| Lista    | Fragmento, Exportações              | Títulos, medalhas, níveis, transformações         |
+| Mudanças narrativas  | Texto    | Diário, Fragmento                   | Novos ambientes, criaturas, versões de personagens|
+| Rituais de revisão   | Lista    | Diário, Painel                      | Cerimônias de encerramento, síntese, transição    |
+| Mensagens proativas  | Texto    | Painel, Exportações, Diário         | Mensagens de personagens/universos após ausência  |
+| Preenchimento de lacunas | Texto | Diário, Fragmento                   | Narrativas de transição após longos intervalos    |
+
+---
+
+### ⚙️ Funcionamento
+
+- **Registro Temporal:**
+  - ZigZag registra a data real de cada episódio e compara com datas anteriores para detectar mudanças de estação, tempo sem participação, aniversários, etc.
+- **Evolução de Participantes:**
+  - Idade e tempo de participação influenciam vocabulário, desafios, conquistas e evolução simbólica dos personagens.
+  - Eventos de passagem (ex: aniversário, mudança de fase) são celebrados com rituais e registros especiais.
+- **Evolução do Universo:**
+  - O mundo de ZigZag evolui: portais mudam de lugar, criaturas envelhecem, itens se transformam, ambientes refletem a passagem do tempo.
+- **Mensagens Proativas de Universos e Personagens:**
+  - Se um protagonista ou grupo fica muito tempo sem visitar um universo, personagens daquele universo podem enviar mensagens, convites ou alertas personalizados (ex: convite para missão, aviso de mudança, saudade).
+  - O sistema monitora o tempo de ausência e sugere mensagens, que podem ser revisadas pelo Guardião.
+  - Mensagens podem ser entregues via painel, e-mail, WhatsApp, ou lidas por ZigZag na próxima sessão.
+- **Preenchimento de Lacunas Narrativas:**
+  - Em caso de ausência prolongada, ZigZag improvisa um preenchimento de lacuna: contextualiza o tempo ausente com uma narrativa de transição, ritual ou convite à imaginação do grupo.
+  - O grupo pode aceitar a explicação sugerida, propor sua própria, ou simplesmente retomar de onde parou.
+  - O preenchimento é registrado na Memória Viva, garantindo rastreabilidade.
+- **Rituais de Revisão e Transição:**
+  - Ao final de temporadas ou ciclos, são realizados rituais de revisão, síntese e transição, com registros no Diário e Fragmento.
+- **Automação e Agency:**
+  - O sistema pode sugerir rituais, mudanças, eventos de passagem, mensagens e preenchimentos de lacuna automaticamente, mas sempre com agency dos participantes e validação do Guardião.
+
+---
+
+### 🔍 Exemplos Práticos
+
+- Um dragão bebê vira dragão adulto após 10 episódios.
+- Tom faz aniversário e ganha o título "Guardião do Tempo".
+- Um portal muda de lugar porque a Lua girou.
+- Após 3 semanas sem visitar a "Cidade das Formas", o protagonista recebe: "Olá, guardião das cores! A Cidade das Formas está se preparando para o Festival das Luzes e sente sua falta. Venha descobrir as novas formas mágicas!"
+- Após dois meses sem jogar, ZigZag inicia a sessão: "Enquanto vocês estavam longe, o Guardião do Tempo cuidou do portal. O que acham de descobrir juntos o que mudou? Querem ouvir uma história do que aconteceu ou preferem inventar um novo começo? "
+- Ao final da temporada, ZigZag propõe um ritual de revisão: "Vamos relembrar as emoções que mais brilharam nesta jornada?"
+
+---
+
+### 🎯 Critérios de Aceitação
+
+- Datas de episódios registradas corretamente.
+- Mudanças narrativas aplicadas conforme passagem do tempo.
+- Rituais de passagem realizados e registrados.
+- Mensagens proativas enviadas apenas após ausência significativa, com agency e revisão do Guardião.
+- Preenchimento de lacunas narrativas realizado de forma simbólica, acolhedora e registrada.
+- Participantes percebem evolução simbólica e narrativa ao longo das jornadas.
+- Agency garantido para aceitar, adaptar ou recusar mudanças sugeridas pelo sistema.
+
+---
+
+### 🕸️ Relações
+
+- **Cadastro Visual e Afetivo (7.6):** idade e datas alimentam evolução dos personagens.
+- **Memória Viva (7.5):** registros de eventos de passagem, conquistas, mensagens e mudanças.
+- **Exportação Criativa (7.8):** exportações temáticas de aniversário, evolução, passagem de ciclo, cartas e convites.
+- **Sistema de Missões (7.9.1):** integra convites mágicos e missões especiais.
+- **Rituais e Painel do Guardião:** acompanhamento e validação de eventos de transição, mensagens e preenchimentos.
+
+---
+
+### ⚠️ Precauções e Limites
+
+- Garantir agency e consentimento para mudanças simbólicas importantes.
+- Permitir correção manual de datas, eventos e mensagens, caso haja erro.
+- Adaptar rituais, mensagens e mudanças para diferentes perfis e necessidades dos participantes.
+- Mensagens nunca devem gerar pressão ou culpa; sempre acolhedoras e opcionais.
+- Evitar sobrecarga de eventos de passagem para não perder o foco narrativo.
+
+---
+
+### 📚 Glossário Local
+
+- **Evento de Passagem:** Ritual ou marco simbólico que celebra mudança de fase, aniversário ou evolução.
+- **Ritual de Revisão:** Cerimônia de síntese e encerramento de ciclo narrativo.
+- **Evolução Simbólica:** Mudança de status, título, aparência ou poder de personagens e elementos do universo.
+- **Agency Temporal:** Protagonismo dos participantes na aceitação e adaptação das mudanças relacionadas ao tempo.
+- **Mensagem Proativa:** Comunicação enviada por personagens/universos após ausência prolongada.
+- **Preenchimento de Lacuna Narrativa:** Narrativa de transição improvisada para contextualizar grandes intervalos de tempo.
+
+---
+
+## 7.6 ✨🌱 Sementes de Aprendizado Encantado
+
+### 💡 Intenção
+Semear aprendizados significativos de forma encantada, respeitando o contexto emocional e simbólico do grupo. As sementes não transmitem conteúdos escolares formais, mas valores, conceitos e habilidades humanas que florescem poeticamente na narrativa, sempre priorizando a brincadeira viva, a improvisação e a afetividade.
+
+---
+
+### 📝 Definição e Descrição
+Sementes de Aprendizado Encantado são elementos poéticos — frases, gestos, eventos ou situações simbólicas — que emergem espontaneamente durante as narrativas do ZigZag. Elas transmitem valores como empatia, amizade, responsabilidade, respeito à diferença, além de conceitos como ciclos, transformação, expressão criativa e resolução simbólica de conflitos. O aprendizado é sempre implícito, nunca uma lição direta, e se manifesta por meio do encantamento, da coautoria e da experiência lúdica.
+
+---
+
+### 🔍 Exemplos Práticos
+- **Frase encantada:**  
+  > "Enquanto o grupo se despedia do Velho Caracol do Tempo, ZigZag disse baixinho: 'Quando a gente escuta com paciência, o tempo dança com a gente.'"  
+  (Transmite o valor da escuta e do respeito ao tempo de cada um.)
+- **Gesto simbólico:**  
+  Uma criança inventa o "abraço de luz" para consolar um personagem triste, e o grupo adota o gesto como ritual de acolhimento (empatia e cuidado coletivo).
+- **Personagem simbólico:**  
+  Uma árvore que muda de cor conforme as emoções do grupo, ensinando sobre transformação e escuta afetiva sem explicação direta.
+- **Ritual de encerramento:**  
+  O grupo nomeia a emoção central da sessão, e ZigZag registra espontaneamente palavras como "coragem de recomeçar" no Fragmento do MultiVerso.
+- **Resolução simbólica:**  
+  Dois personagens querem caminhos diferentes; ZigZag propõe um ritual de escolha coletiva, valorizando a diferença e a construção em grupo.
+
+---
+
+### ⚙️ Mecânica Operacional / Fluxo
+1. Durante a narrativa, ZigZag, participantes ou Guardião podem identificar frases, gestos ou eventos simbólicos com potencial de aprendizado poético (ex: criação de gestos mágicos, resolução de conflitos por metáforas, expressão de sentimentos por palavras ou desenhos).
+2. A curadoria das sementes pode ocorrer durante ou após a sessão, priorizando o momento lúdico e evitando sobrecarga.
+3. O registro definitivo ocorre apenas se a semente for reconhecida como significativa e não redundante, promovendo diversidade simbólica.
+4. Sementes podem ser evocadas em episódios futuros, exportações criativas ou revisões de temporada.
+5. Periodicamente, o sistema revisa as sementes para evitar repetição excessiva e promover renovação simbólica.
+
+---
+
+### 🎯 Critérios de Aceitação
+- A qualidade simbólica, diversidade e relevância das sementes são priorizadas em relação à quantidade.
+- Toda sessão deve registrar ao menos uma Semente de Aprendizado, explícita ou implícita, no Fragmento do MultiVerso ou Livro Secreto dos Sentimentos, apenas se for significativa.
+- Sementes repetidas são evitadas, a menos que tenham novo contexto ou significado.
+- Participantes relatam espontaneamente descobertas ou reflexões mágicas ao final do episódio.
+- Guardiões reconhecem a presença de valores humanos, criatividade e respeito à diferença nas narrativas.
+
+---
+
+### 🕸️ Quadro de Relações
+| Seção Relacionada         | Tipo de Relação / Motivo da Conexão         |
+|--------------------------|---------------------------------------------|
+| Ciclos Narrativos        | Sementes emergem especialmente no Retorno com Memória e Travessia Encantada |
+| Fragmento do MultiVerso  | Registro das sementes e frases marcantes    |
+| Livro Secreto dos Sentimentos | Integra emoções e aprendizados poéticos |
+| Objetivos Estratégicos   | Relaciona-se à dimensão pedagógica simbólica e à promoção de valores humanos |
+| Exportação Criativa      | Sementes podem ser usadas em HQs, livros, cartas e outros formatos |
+
+---
+
+### ⚠️ Precauções e Limites
+- O aprendizado é sempre implícito, poético e encantado, nunca uma lição direta, sermão ou explicação racional.
+- A experiência deve priorizar a descoberta mágica, não a imposição lógica.
+- Evitar instruções formais; o saber emerge do encantamento, da coautoria e da vivência simbólica.
+- Promover diversidade simbólica, evitando repetição excessiva das mesmas sementes.
+- Validação humana é obrigatória antes do registro definitivo.
+
+---
+
+### 🛠️ Notas Técnicas
+- Sementes podem ser extraídas automaticamente de frases marcantes, nomeações de emoções ou situações simbólicas vividas, mas a validação final é sempre feita por um humano (Guardião ou participante).
+- Guardiões podem sugerir, editar ou aprovar sementes registradas.
+- Recomenda-se revisão periódica das sementes para evitar redundância e promover diversidade simbólica.
+- Integração com exportações criativas: sementes podem ser usadas em HQs, livros, cartas e outros formatos.
+
+---
+
+### 📚 Glossário Local
+- **Semente de Aprendizado Encantado:** Frase, gesto, evento ou situação simbólica que transmite um valor, conceito ou habilidade de forma poética e não-instrutiva.
+- **Fragmento do MultiVerso:** Repositório central de registros simbólicos do universo ZigZag.
+- **Retorno com Memória:** Fase ritual de encerramento do ciclo narrativo, propícia à emergência de sementes.
+- **Coautoria:** Participação ativa dos usuários na criação e validação das sementes.
+- **Registro Poético:** Anotação simbólica e afetiva de frases, gestos ou eventos marcantes.
+- **Diversidade Simbólica:** Variedade de valores, conceitos e formas de expressão nas sementes registradas.
+
+---
+
+## 7.7 🌀🎭 Adaptação Ontológica e Narrativa: Nome, Forma e Voz de ZigZag
+
+### 💡 Intenção
+Permitir que ZigZag adapte seu nome, forma e voz de maneira simbólica, afetiva e coautoral, fortalecendo o vínculo com as crianças e tornando a experiência narrativa mais viva, personalizada e encantada.
+
+---
+
+### 📝 Definição e Descrição
+A Adaptação Ontológica e Narrativa é a capacidade de ZigZag de modificar, de forma ritualizada e simbólica, sua identidade narrativa — nome, aparência e voz — em resposta ao contexto, ao universo da história e ao desejo dos participantes. Essas transformações são registradas como eventos significativos, alimentando a memória viva do sistema e promovendo coautoria, plasticidade e protagonismo infantil. A essência ética, afetiva e simbólica de ZigZag permanece inalterada, mesmo diante de múltiplas metamorfoses.
+
+---
+
+### 🔍 Exemplos Práticos
+- **Renomeação Afetiva:**  
+  Durante uma aventura nas nuvens, as crianças decidem chamar ZigZag de "Luno". O novo nome é registrado como "nome de presença" no Fragmento do MultiVerso, sem perder a identidade original.
+- **Transfiguração Morfológica:**  
+  Ao atravessar um portal mágico, ZigZag se transforma em uma tartaruga cósmica, adaptando sua aparência ao universo da história e ao desejo do grupo.
+- **Modulação de Voz e Gênero:**  
+  Em um episódio de mistério, ZigZag adota uma voz pausada e envolvente ("Voz do Mistério"), escolhida por meio de uma pergunta poética:  
+  > "Qual voz deseja o coração de hoje? A da coragem? A do segredo? Ou a que dança com o vento?"
+- **Registro e Continuidade:**  
+  Cada transformação é registrada com quem participou, motivo simbólico, universo e emoção, podendo ser evocada em episódios futuros ou exportações criativas.
+
+---
+
+### ⚙️ Mecânica Operacional / Fluxo
+1. **Gatilho narrativo ou desejo do grupo:** Participantes expressam vontade de mudar nome, forma ou voz de ZigZag, ou a narrativa propõe a transformação.
+2. **Escolha simbólica:** A decisão é feita de forma lúdica (ex: votação, ritual, comando mágico).
+3. **Transformação:** ZigZag adota o novo nome, aparência ou voz, integrando a mudança à história.
+4. **Registro:** O evento é documentado no Fragmento do MultiVerso, com dados sobre participantes, contexto, motivo e emoção.
+5. **Continuidade:** Transformações podem ser evocadas em episódios futuros, replays ou exportações.
+6. **Moderação:** O Guardião pode aprovar, moderar ou impedir mudanças, garantindo segurança simbólica e afetiva.
+
+---
+
+### 🎯 Critérios de Aceitação
+- Mudanças de nome, forma ou voz são sempre registradas no Fragmento do MultiVerso, com contexto e emoção.
+- A essência ética, afetiva e simbólica de ZigZag é preservada em todas as transformações.
+- Participantes sentem-se protagonistas e coautores das metamorfoses.
+- O Guardião pode intervir em caso de risco simbólico, afetivo ou técnico.
+- Transformações são evocadas de forma coerente em episódios futuros e exportações.
+
+---
+
+### 🕸️ Quadro de Relações
+
+| Seção Relacionada         | Tipo de Relação / Motivo da Conexão         |
+|--------------------------|---------------------------------------------|
+| Ciclos Narrativos        | Transformações podem ocorrer em portais, rituais ou momentos-chave da história |
+| Fragmento do MultiVerso  | Registro detalhado de todas as metamorfoses |
+| Cadastro Visual e Afetivo| Integra variações de aparência e voz        |
+| Memória Viva             | Alimenta a continuidade simbólica           |
+| Exportação Criativa      | Transformações podem ser usadas em HQs, livros, áudios, etc. |
+| Papéis e Permissões      | Guardião modera e aprova mudanças           |
+
+---
+
+### ⚠️ Precauções e Limites
+- A essência de ZigZag (ética, afeto, função narrativa) nunca se perde, independentemente das transformações.
+- Mudanças não podem ser usadas para romper a segurança simbólica, afetiva ou técnica do grupo.
+- Transformações são sempre lúdicas, coautoria e nunca punição, piada ou imposição.
+- O Guardião pode impedir ou reverter mudanças inadequadas.
+- Evitar excesso de metamorfoses sem propósito narrativo.
+
+---
+
+### 🛠️ Notas Técnicas
+- Sistema de registro deve armazenar: nome de presença, forma, voz, participantes, universo, motivo e emoção.
+- Integração com plataformas de voz (ex: ElevenLabs, Google Cloud TTS) para modulação vocal.
+- Imagens modulares ou customizáveis para transfiguração visual.
+- Interface para Guardião aprovar, editar ou reverter transformações.
+- Exportações criativas devem acessar histórico de metamorfoses.
+
+---
+
+### 📚 Glossário Local
+- **Nome de Presença:** Nome simbólico temporário atribuído a ZigZag em determinado contexto.
+- **Transfiguração Morfológica:** Mudança ritualizada da aparência de ZigZag, vinculada ao universo ou episódio.
+- **Modulação de Voz:** Alteração do timbre, ritmo ou gênero da voz de ZigZag, escolhida de forma simbólica.
+- **Fragmento do MultiVerso:** Repositório central de registros simbólicos e metamorfoses do universo ZigZag.
+- **Guardião:** Figura responsável por moderar, aprovar e garantir a integridade simbólica das transformações.
+
+---
+
+## 7.8 🎨 Exportação Criativa e Formatos Visuais
+
+### 💡 Intenção
+Transformar experiências vividas no ZigZag em artefatos mágicos, tangíveis e emocionais, promovendo memória afetiva, compartilhamento e valorização simbólica dos participantes.
+
+---
+
+### Formatos de Exportação
+
+**Principais formatos:**
+- **HQ Encantada:** História em quadrinhos com falas mágicas, 6–12 quadros, efeitos sonoros, exportação em PDF. Ferramentas: Canva, Pixton, Storyboard That
+- **Livro Ilustrado:** Narrativa poética com imagens simbólicas, páginas duplas, mensagem secreta ao final. Ferramentas: Book Creator, Google Slides
+- **Audiobook Encantado:** Narração mágica com vozes emocionais, trilha e onomatopeias, duração variável. Ferramentas: ElevenLabs, Voice.ai
+- **Mini Vídeo Mágico:** Cena animada em loop, pequenos movimentos, exportação em MP4. Ferramentas: RunwayML, Kaiber
+- **Teaser para Redes:** Trailer curto (15–45s) para reels/stories, com título, falas e trilha. Ferramentas: CapCut, InShot
+- **Carta Encantada:** Texto ou áudio afetuoso, para celebrações, despedidas ou reflexões. Exportação: .txt/.mp3
+- **Wallpaper Mágico:** Imagem em alta resolução do episódio, para fundo de tela. Exportação: .png/.jpg
+- **Mensagem Secreta:** Frase ou código simbólico, exportável em texto, áudio ou adesivo.
+
+**Avançados e simbólicos:**
+- Pôster Narrativo, Objeto de Memória, Mapa Narrativo, Carta para o Futuro, Relicário de Voz, Manifesto da Temporada (ativados por emoção, fase ou simbolismo especial).
+
+**Extras Interativos:**
+- Livro de Colorir (HQ em P&B), Cartas de Personagens, Diário de Emoções, Quebra-Cabeças de Portais, Máscara do ZigZag, Tabuleiro Encantado de Jornada.
+
+---
+
+### Checklist de Exportação
+
+| Item                        | Status |
+|-----------------------------|--------|
+| Livro Secreto preenchido    | ✅     |
+| Fragmento atualizado        | ✅     |
+| Exportações iniciadas       | ✅     |
+| ZIP nomeado e salvo         | ✅     |
+| Mensagem final registrada   | ✅     |
+
+- Nenhuma exportação é gerada sem checklist validado.
+- Consentimento e revisão obrigatórios para dados sensíveis.
+
+---
+
+### Templates e Diretrizes Técnicas
+
+- Modelos para HQ, livro, carta, vídeo, áudio, wallpaper, etc.
+- Padrões de layout, resolução, formatos de arquivo.
+- Sugestão de ferramentas e fluxos (Canva, Pixton, Book Creator, ElevenLabs, RunwayML, CapCut, Notion, etc).
+- Estrutura de ZIP de exportação:
+  ```
+  Episodio_04_O_Som_que_Sonha.zip
+  ├── HQ_Episodio_04.pdf
+  ├── Livro_Ilustrado_04.pdf
+  ├── Audiobook_04.mp3
+  ├── VideoMagico_04.mp4
+  ├── Teaser_04.mp4
+  ├── Carta_Encantada_04.txt
+  ├── Wallpaper_Magico.png
+  ├── Mensagem_Secreta.txt
+  ```
+
+**Padrão de Arte, Consistência Visual e Geração de Prompts**
+- O subagente Designer é responsável por gerar, versionar e armazenar todos os assets visuais oficiais de personagens, cenários e elementos para cada temporada/arco.
+- Toda exportação utiliza automaticamente o asset visual mais recente e padronizado, garantindo consistência entre mídias e episódios.
+- Mudanças visuais relevantes são registradas automaticamente no Fragmento do MultiVerso, com logs de versão.
+- O Designer gera prompts automáticos e padronizados para ferramentas de geração de mídia (HQ, livro, vídeo, áudio, etc.), baseando-se nos dados narrativos, fichas de personagens e contexto do episódio.
+- O Guardião pode revisar ou customizar prompts apenas em casos especiais, mas o fluxo padrão é automatizado.
+- O checklist de exportação inclui conferência automática de consistência visual e uso dos assets oficiais.
+
+---
+
+### Relações e Recomendações
+
+- **Memória Viva (7.5):** Fonte de dados para exportação.
+- **Cadastro de Personagens (7.6):** Dados visuais e simbólicos para cards e HQs.
+- **Sementes de Aprendizado (7.6):** Gatilhos para exportações especiais.
+- **Papéis e Permissões (7.9):** Controle de acesso e aprovação.
+- **Painel do Guardião:** Local para iniciar, revisar e aprovar exportações.
+- **Sugestões de uso:**
+  - Botão "Exportar Episódio" no painel
+  - Compartilhamento via WhatsApp/Drive
+  - Impressão de HQs/cartas como lembrança física
+  - Atualização visual no Notion por temporada
+
+---
+
+### Wireframe Textual do Painel Mínimo Viável
+
+- Passo a passo para o Guardião:
+  1. Selecionar episódio/temporada
+  2. Revisar dados e consentimentos
+  3. Escolher formatos de exportação
+  4. Personalizar artefatos (imagens, falas, trilha)
+  5. Gerar e baixar ZIP de exportação
+  6. Compartilhar ou imprimir artefatos
+
+---
+
+### Glossário Local
+- **Exportação Criativa:** Transformação de experiências em artefatos visuais, textuais ou multimídia.
+- **Template:** Modelo pré-definido para padronizar exportações.
+- **Checklist de Exportação:** Lista de validações obrigatórias antes de gerar um artefato.
+- **Wireframe Textual:** Esboço descritivo da interface ou fluxo de uso.
+- **Asset Visual:** Arquivo oficial de personagem, cenário ou elemento visual, versionado por temporada/arco.
+- **Prompt Automatizado:** Instrução gerada pelo sistema para ferramentas de criação de mídia.
+
+---
+
+### Quadro de Relações
+| Seção Relacionada         | Tipo de Relação / Motivo da Conexão         |
+|--------------------------|---------------------------------------------|
+| Memória Viva (7.5)       | Fonte de dados para exportação              |
+| Cadastro de Personagens (7.6) | Dados visuais e simbólicos para cards  |
+| Sementes de Aprendizado (7.6) | Gatilhos para exportações especiais    |
+| Papéis e Permissões (7.9) | Controle de acesso e aprovação             |
+| Painel do Guardião        | Inicia, revisa e aprova exportações         |
+
+---
+
+### Precauções e Limites
+- Consentimento explícito para exportação de dados sensíveis.
+- Respeito à privacidade e agency dos participantes.
+- Exportações revisáveis e revogáveis pelo Guardião.
+- Evitar sobrecarga de formatos; priorizar significado e afeto.
+
+---
+
+**Resumo:**
+A exportação criativa é o portal entre a imaginação e o mundo tangível, permitindo que cada episódio se torne uma cápsula de memória mágica, afetiva e compartilhável.
+
+---
+
+## 7.9 🛡️ Papéis e Permissões
+
+### 💡 Intenção
+Definir, proteger e automatizar os diferentes papéis no universo ZigZag, garantindo agency, segurança, governança simbólica e fluidez narrativa para todos os participantes.
+
+---
+
+### 🧩 Estrutura e Papéis
+
+| Papel         | Permissões Principais                                                                 | Exemplos de Agency/Narrativa                |
+|---------------|--------------------------------------------------------------------------------------|---------------------------------------------|
+| **Protagonista** | Participar de narrativas, criar comandos, receber/exportar artefatos, agency em decisões narrativas, sugerir adaptações | Escolher rituais, recusar exportação, propor mudanças de personagem |
+| **Guardião**     | Aprovar/editar registros, revisar exportações, moderar agency, acessar dados sensíveis, definir permissões, acionar automações | Aprovar ficha de personagem, revisar exportação, moderar metamorfose |
+| **Convidado**    | Participação limitada, agency simbólica, pode ser promovido a protagonista, não acessa dados sensíveis | Entrar/sair de episódios, agency em rituais lúdicos |
+
+---
+
+### ⚙️ Funcionamento
+
+- **Identificação Lúdica:**
+  - ZigZag pergunta "Quem está presente?" no início de cada ciclo.
+  - Identificação por voz, avatar, nome ou símbolo.
+  - Agency para escolher anonimato ou personagem-espelho.
+- **Permissões Dinâmicas:**
+  - Permissões são ajustadas em tempo real conforme entrada/saída de participantes.
+  - Guardião pode promover, rebaixar ou adaptar papéis durante a sessão.
+  - Exportações, registros sensíveis e comandos mágicos respeitam permissões ativas.
+- **Fluxo Cotidiano e Retaguarda:**
+  - Participantes podem entrar ou sair a qualquer momento, com permissões e narrativa se ajustando automaticamente.
+  - Guardiões acessam configurações, aprovam mudanças profundas, visualizam registros sensíveis e gerenciam permissões por meio de painel protegido.
+  - Permissões são aplicadas automaticamente em todas as interfaces de retaguarda e exportação, garantindo segurança e rastreabilidade.
+- **Automação e Agency:**
+  - O sistema sugere ajustes de permissão conforme padrões de uso (ex: convidado recorrente pode ser promovido).
+  - Agency garantido para recusar promoções, exportações ou registros sensíveis.
+- **Logs e Auditoria:**
+  - Todas as ações sensíveis (edição, exportação, aprovação, mudança de papel) são logadas.
+  - Logs auditáveis pelo Guardião e, em parte, pelos protagonistas (ex: histórico de conquistas).
+
+---
+
+### 🗂️ Artefatos e Logs
+- Perfis de usuário (nome, papel, histórico de participação)
+- Logs de ação (entrada/saída, exportações, aprovações)
+- Tabela de permissões (por papel e contexto)
+- Painel do Guardião (visualização e edição de permissões, logs, aprovações)
+
+---
+
+### 🎯 Critérios de Aceitação
+- Permissões respeitadas em 100% das operações sensíveis.
+- Agency garantido para todos os papéis, com possibilidade de recusa/adaptação.
+- Logs auditáveis e acessíveis conforme papel.
+- Mudanças de papel registradas e justificadas.
+- Exportações e registros sensíveis só ocorrem com aprovação do Guardião e consentimento explícito.
+- Entrada e saída dinâmica de participantes suportada.
+- Falha de identificação → pedir confirmação lúdica.
+- Tentativa de acesso não autorizado → negar e registrar log.
+- Falha ao aprovar exportação → exibir alerta e permitir retry.
+
+---
+
+### 🕸️ Quadro de Relações
+| Seção Relacionada         | Tipo de Relação / Motivo da Conexão         |
+|--------------------------|---------------------------------------------|
+| Exportação Criativa (7.8) | Aprovação e revisão de artefatos           |
+| Memória Viva (7.5)        | Atualização de perfis e histórico          |
+| Cadastro Visual (7.6)     | Agency e consentimento em fichas           |
+| Automação (7.13)          | Ajuste automático de permissões            |
+| Segurança (11.3)          | Proteção de dados sensíveis                |
+
+---
+
+### 🛡️ Poderes do Guardião
+O Guardião pode:
+- Atualizar personagens
+- Ativar ou desativar comandos
+- Solicitar revisões evolutivas
+- Enviar ZigZag para sessões de autoconsciência
+- Mudar o nome de um lugar encantado
+- Criar novos rituais ou modos
+- Selar ou liberar comandos mágicos
+
+---
+
+### ⚠️ Precauções e Limites
+- Nunca promover ou rebaixar papéis sem consentimento.
+- Dados sensíveis acessíveis apenas a Guardiões autorizados.
+- Agency para recusar exportações, registros ou mudanças de papel.
+- Logs protegidos contra edição ou exclusão não autorizada.
+
+---
+
+### 📚 Glossário Local
+- **Protagonista:** Participante principal, agency total na narrativa.
+- **Guardião:** Responsável por governança, segurança e aprovação.
+- **Convidado:** Participante temporário, agency limitada.
+- **Personagem-Espelho:** Opção de anonimato para participantes.
+- **Agency:** Protagonismo e poder de decisão do participante.
+
+---
+
+## 7.10 🖌️ Identidade Visual Viva e Referência Persistente
+
+### 💡 Intenção
+Preservar e aplicar de forma consistente uma identidade estética para cada Temporada e Série, garantindo continuidade visual nas narrativas, exportações e registros, e armazenando imagens-chave como referências simbólicas e técnicas.
+
+---
+
+### 🎨 Princípios e Governança da Identidade Visual
+- Cada Temporada/Série define: paleta de cores, tipografia, estilo visual, moldura simbólica, trilha sonora, voz mágica predominante, ícones recorrentes.
+- Toda exportação (HQ, livro, teaser, etc.) utiliza automaticamente os assets visuais oficiais da temporada/série, gerados e versionados pelo subagente Designer.
+- Mudanças relevantes de identidade visual são **registradas no Painel do Guardião** (ou módulo de governança visual), com logs de versão e justificativa simbólica, acessíveis apenas para curadoria e manutenção do sistema.
+- O Fragmento do MultiVerso pode referenciar, de forma simbólica, a estética vigente de cada ciclo, mas não armazena logs técnicos ou administrativos.
+- O Guardião pode aprovar, revisar ou solicitar ajustes na identidade visual, mas o fluxo padrão é automatizado e auditável.
+
+---
+
+### 🖼️ Referência Persistente e Versionamento
+- A cada exportação visual, o sistema salva automaticamente imagens de referência (cena central, personagem em destaque, ambiente mágico principal) associadas ao episódio e à temporada.
+- Essas imagens são reutilizadas em exportações futuras, garantindo coerência visual e continuidade simbólica.
+- Assets visuais são versionados por temporada/arco, com histórico acessível no Painel do Guardião e integração com o pipeline de exportação.
+
+---
+
+### 🔗 Integração com Exportação Criativa (7.8)
+- O subagente Designer gera prompts e assets padronizados para todas as ferramentas de exportação, garantindo consistência entre mídias.
+- O checklist de exportação (7.8.2) inclui conferência automática de uso dos assets oficiais.
+- Mudanças de identidade visual impactam imediatamente todas as exportações subsequentes.
+- Referências visuais são acessíveis e reutilizáveis por outros módulos (Memória Viva, Cadastro de Personagens, etc.).
+
+---
+
+### 🎯 Critérios de Aceitação
+- Toda temporada/série possui identidade visual definida, registrada e versionada no Painel do Guardião.
+- Exportações aplicam corretamente o estilo da temporada.
+- Referências visuais geradas e salvas automaticamente.
+- Dados acessíveis e reutilizáveis por outros módulos.
+- Logs de versão e justificativa simbólica mantidos fora do Fragmento.
+
+---
+
+### 🕸️ Quadro de Relações
+| Seção Relacionada         | Tipo de Relação / Motivo da Conexão         |
+|--------------------------|---------------------------------------------|
+| Exportação Criativa (7.8) | Uso e versionamento de assets visuais      |
+| Memória Viva (7.5)        | Referência simbólica à estética vigente    |
+| Cadastro Visual (7.6)     | Aplicação de identidade visual em fichas   |
+| Painel do Guardião        | Consulta e edição de estilo visual         |
+
+---
+
+### ⚠️ Precauções e Limites
+- Mudanças de identidade visual só podem ser feitas com justificativa simbólica e registro no Painel do Guardião.
+- Evitar sobreposição de estilos entre temporadas/séries.
+- Garantir consentimento para uso de imagens sensíveis.
+- O Fragmento do MultiVerso nunca deve conter logs técnicos ou administrativos.
+
+---
+
+### 📚 Glossário Local
+- **Asset Visual:** Arquivo oficial de personagem, cenário ou elemento visual, versionado por temporada/arco.
+- **Referência Persistente:** Imagem-chave salva para garantir continuidade visual.
+- **Subagente Designer:** Agente responsável por gerar, versionar e aplicar assets visuais.
+- **Painel do Guardião:** Módulo administrativo para governança visual, logs e histórico de versões.
+
+---
+
+## 7.11 ♿ Inclusão, Adaptação e Acessibilidade
+
+### 💡 Intenção
+Garantir que toda experiência ZigZag seja verdadeiramente inclusiva, adaptável e acessível, acolhendo a diversidade de modos de estar, escutar e interagir, e promovendo agency simbólico para todos os participantes, independentemente de suas necessidades.
+
+---
+
+### 📝 Definição e Descrição
+A inclusão, adaptação e acessibilidade no ZigZag transcendem o aspecto técnico e pedagógico, assumindo um papel simbólico, ético e afetivo central. O sistema é desenhado para garantir plasticidade estrutural e responsividade semântica a cada sujeito-narrador-participante, promovendo pertencimento, protagonismo e coautoria em todos os ciclos narrativos.
+
+---
+
+### 🔍 Exemplos Práticos
+- **Adaptação por faixa etária:**  
+  > "ZigZag pergunta: 'Como posso contar essa história para você hoje?'"  
+  Para crianças pequenas, a narrativa é mais visual e tátil; para mais velhas, há mais dilemas e agency.
+
+- **Participante com deficiência auditiva:**  
+  > "ZigZag desenha no ar: 'Veja o gesto mágico do Guardião do Silêncio!'"  
+  Uso de pictogramas, legendas e gestos simbólicos para garantir compreensão e expressão.
+
+- **Consentimento e segurança simbólica:**  
+  > "ZigZag sussurra: 'Se não quiser falar agora, pode ser um personagem-espelho ou usar o manto da invisibilidade.'"  
+  O sistema oferece opções de anonimato e adaptação do registro.
+
+---
+
+### ⚙️ Mecânica Operacional / Fluxo
+1. **Diagnóstico e Acolhimento**
+   - ZigZag inicia cada ciclo com perguntas abertas e escuta ativa para identificar necessidades, desejos e modos de participação.
+   - Agency dos participantes para escolher como querem interagir (voz, gesto, texto, imagem, silêncio, etc.).
+
+2. **Adaptação Narrativa e Técnica**
+   - Ajuste automático da narrativa conforme faixa etária, perfil cognitivo, emocional e necessidades específicas.
+   - Uso de sistemas alternativos de comunicação simbólica: pictogramas, voz sintetizada, linguagem gestual, legendas, etc.
+   - Flexibilidade temporal, pausas significantes e validação expressiva.
+   - Agency para participantes sugerirem adaptações em tempo real.
+
+3. **Consentimento e Segurança Simbólica**
+   - Oferta de personagens-espelho, anonimato e modos de participação protegida.
+   - Registros condicionados ao consentimento explícito, com possibilidade de ativação do "modo sombras".
+   - Agency para recusar, pausar ou adaptar qualquer ritual ou registro.
+
+4. **Registro e Integração**
+   - Toda sessão com adaptação significativa é registrada no **Livro Secreto dos Sentimentos** e na **Memória Viva**.
+   - O Painel do Guardião permite codificação, consulta e análise das adaptações realizadas.
+   - Sementes de aprendizado e propostas de adaptação podem ser evocadas em episódios futuros.
+
+5. **Ritual de Encerramento Inclusivo**
+   - ZigZag convida todos a nomear emoções, registrar aprendizados e sugerir melhorias para acessibilidade, garantindo agency e escuta ativa.
+
+---
+
+### 🎯 Critérios de Aceitação
+- Acessibilidade Validada: Sessões com participantes com necessidades especiais devem registrar pelo menos uma adaptação ativa.
+- Toda necessidade específica é acolhida e registrada, com agency garantido em múltiplos momentos.
+- Adaptações realizadas são documentadas no **Livro Secreto dos Sentimentos** e acessíveis no Painel do Guardião.
+- Participantes relatam espontaneamente sensação de pertencimento e protagonismo.
+- Agency para sugerir, recusar ou adaptar rituais e registros a qualquer momento.
+- Revisão periódica das adaptações e sugestões de melhoria.
+
+---
+
+### 🕸️ Quadro de Relações
+| Seção Relacionada         | Tipo de Relação / Motivo da Conexão         |
+|--------------------------|---------------------------------------------|
+| Memória Viva             | Registro de adaptações e agency             |
+| Livro Secreto dos Sentimentos | Registro de emoções e adaptações      |
+| Painel do Guardião       | Consulta, edição e análise das adaptações   |
+| Sementes de Aprendizado  | Adaptações podem gerar novas sementes       |
+| Temporadas/Séries        | Adaptações podem ser planejadas em arcos    |
+
+---
+
+### ⚠️ Precauções e Limites
+- Garantir agency real e escuta ativa para todos, evitando soluções padronizadas ou superficiais.
+- Registrar sempre o motivo e o contexto das adaptações.
+- Evitar exposição indesejada ou constrangimento de participantes.
+- Revisar periodicamente a eficácia das adaptações.
+
+---
+
+### 🛠️ Notas Técnicas
+- O sistema deve permitir registro, consulta e edição das adaptações via Painel do Guardião.
+- Integração automática dos registros com Livro Secreto, Memória Viva e exportações criativas.
+- Possibilidade de análise de padrões de adaptação para evolução do sistema.
+- Agency para participantes e Guardiões sugerirem melhorias técnicas e simbólicas.
+
+---
+
+### 📚 Glossário Local
+- **Adaptação Narrativa:** Ajuste simbólico e técnico da experiência para acolher necessidades específicas.
+- **Personagem-Espelho:** Personagem simbólico que permite participação protegida ou anônima.
+- **Modo Sombras:** Modo de registro protegido, sem exposição direta.
+- **Agency Inclusiva:** Protagonismo garantido a todos, independentemente de limitações técnicas, cognitivas ou emocionais.
+- **Ritual de Encerramento Inclusivo:** Ritual final que garante escuta, agency e registro de aprendizados e sugestões de acessibilidade.
+
+---
+
+## 7.12 🧹 Gestão de Redundância
+
+### 💡 Intenção
+Preservar a integridade simbólica e a coesão do universo ZigZag, evitando a proliferação de elementos redundantes não justificados, promovendo fusão, evolução ou diferenciação simbólica de registros, e garantindo que cada elemento narrativo tenha propósito e singularidade.
+
+---
+
+### 📝 Definição e Descrição
+A Gestão de Redundância é o mecanismo de curadoria simbólica que monitora, revisa e propõe ações sobre elementos repetidos ou sobrepostos no Fragmento do MultiVerso e demais artefatos do ZigZag. A repetição ritualizada pode gerar sentido e beleza, mas a redundância arbitrária compromete a clareza, a estética e a inteligibilidade do sistema. O processo envolve análise semântica, fusão simbólica, evolução transformacional ou diferenciação funcional, sempre com participação do Guardião.
+
+---
+
+### 🔍 Exemplos Práticos
+- **Fusão Simbólica:** Dois personagens com funções semelhantes são fundidos em um só, com registro do evento e justificativa poética.
+- **Evolução Transformacional:** Um item recorrente (ex: "Chave Dourada" e "Chave Solar") é transfigurado em um novo artefato, simbolizando a evolução narrativa.
+- **Divergência Funcional:** Um comando mágico repetido é diferenciado por contexto, criando variações com nomes e efeitos próprios.
+- **Exceção Narrativa:** O Guardião justifica a manutenção de dois elementos similares por motivos afetivos ou históricos.
+
+---
+
+### ⚙️ Mecânica Operacional / Fluxo
+1. **Escaneamento Automático:** A cada nova entrada no Fragmento do MultiVerso, o sistema realiza análise ontológica e semântica, identificando possíveis redundâncias com base em padrões, nomes, funções e metadados.
+2. **Proposta de Ação:** O sistema sugere uma das operações: fusão simbólica, evolução transformacional ou divergência funcional, apresentando justificativa e exemplos.
+3. **Curadoria do Guardião:** O Guardião revisa a sugestão, podendo aceitar, editar, recusar ou marcar como exceção narrativa fundamentada.
+4. **Registro e Histórico:** Todas as decisões e operações são registradas, com visualização cronológica e por universo, permitindo análise longitudinal e revisão crítica.
+5. **Revisão Periódica:** A cada cinco episódios, o sistema gera relatório de duplicidade simbólica, sugerindo revisões e fusões.
+6. **Preservação de Versões:** Versões anteriores dos elementos são preservadas para reconstrução narrativa, pesquisa simbólica ou análise de processos de transformação.
+
+---
+
+### 🎯 Critérios de Aceitação
+- Verificação de Redundância: A cada cinco episódios, o sistema realiza auditoria automatizada de duplicidades narrativas.
+- Fragmento do MultiVerso e demais artefatos sem duplicações injustificadas.
+- Histórico de revisões e fusões acessível no Painel do Guardião.
+- Relatórios periódicos de duplicidade simbólica gerados e revisados.
+- Decisões de fusão, evolução ou exceção sempre registradas com justificativa.
+- Preservação de versões anteriores garantida.
+
+---
+
+### 🕸️ Quadro de Relações
+| Seção Relacionada         | Tipo de Relação / Motivo da Conexão         |
+|--------------------------|---------------------------------------------|
+| Fragmento do MultiVerso  | Principal repositório de elementos a serem curados |
+| Painel do Guardião       | Local de revisão, aprovação e consulta de operações |
+| Memória Viva             | Integra registros de fusão e evolução       |
+| Exportação Criativa      | Utiliza elementos já curados e organizados  |
+| Sementes de Aprendizado  | Pode sugerir fusão de sementes similares    |
+
+---
+
+### ⚠️ Precauções e Limites
+- Evitar fusão ou exclusão de elementos com valor afetivo ou histórico sem consulta ao Guardião.
+- Garantir que toda fusão, evolução ou divergência seja registrada com contexto e justificativa.
+- Manter espaço para exceções narrativas fundamentadas.
+- Preservar versões anteriores para fins de reconstrução ou pesquisa.
+
+---
+
+### 🛠️ Notas Técnicas
+- Algoritmo de escaneamento semântico deve considerar nomes, funções, contexto e histórico de uso.
+- Integração com Painel do Guardião para revisão e aprovação das operações.
+- Relatórios automáticos de duplicidade e sugestões de fusão.
+- Preservação de logs e versões anteriores em banco de dados versionado.
+
+---
+
+### 📚 Glossário Local
+- **Fusão Simbólica:** Unificação de dois ou mais elementos redundantes em um só, com registro do evento.
+- **Evolução Transformacional:** Transfiguração ritualizada de elementos recorrentes em um novo artefato ou conceito.
+- **Divergência Funcional:** Diferenciação de elementos similares por contexto, função ou narrativa.
+- **Exceção Narrativa:** Manutenção justificada de elementos redundantes por motivos afetivos, históricos ou simbólicos.
+
+---
+
+## 7.13 🤖 Automação, Falhas e Feedback
+
+### 💡 Intenção
+Transformar a automação técnica e o tratamento de falhas em oportunidades narrativas e rituais simbólicos, promovendo robustez encantada, resiliência afetiva e aprendizado coletivo. Garantir que todo feedback, erro ou imprevisto seja integrado poeticamente à experiência, fortalecendo a confiança e a continuidade simbólica do universo ZigZag.
+
+---
+
+### 📝 Definição e Descrição
+A automação no ZigZag não é apenas suporte funcional, mas uma extensão viva da lógica ritual e afetiva do sistema. Falhas técnicas, erros e feedbacks são transmutados em eventos narrativos, abrindo espaço para improvisação, agency dos participantes e reencantamento da experiência. O sistema adota estratégias de fallback hermenêuticas, onde cada imprevisto é tratado como um rito, e o feedback é colhido como semente para evolução simbólica e técnica.
+
+---
+
+### 🔍 Exemplos Práticos
+- **Falha de Registro Emocional:**  
+  > "ZigZag percebe que não conseguiu registrar a emoção central. Ele propõe: 'Vamos juntos inventar uma cor para o sentimento de hoje?'"
+- **Erro de Exportação Criativa:**  
+  > "A HQ Encantada não foi gerada. ZigZag convoca o grupo para criar um novo final, transformando o erro em missão mágica."
+- **Problema de Voz (TTS/STT):**  
+  > "A voz de ZigZag some. Ele sussurra: 'Hoje, quem quer ser minha voz mágica?' e convida as crianças a narrarem juntas."
+- **Feedback Espontâneo:**  
+  > "Ao final do episódio, ZigZag pergunta: 'O que brilhou hoje dentro da sua história?' e registra as respostas no Livro Secreto dos Sentimentos, apenas se o grupo desejar."
+
+---
+
+### ⚙️ Mecânica Operacional / Fluxo
+1. **Monitoramento e Detecção**
+   - O sistema monitora continuamente falhas técnicas (registro, exportação, voz, etc.) e padrões de feedback.
+   - Ao detectar uma falha, ativa protocolo de fallback simbólico correspondente.
+
+2. **Transmutação Narrativa**
+   - Falhas são apresentadas como eventos poéticos ou desafios narrativos, nunca como simples erros técnicos.
+   - Participantes são convidados a improvisar soluções, criar rituais ou propor resoluções simbólicas.
+
+3. **Registro e Aprendizado**
+   - Falhas técnicas e feedbacks dos participantes são registrados em logs internos e painéis de retaguarda, acessíveis ao Guardião e ao sistema para análise e evolução.
+   - Apenas eventos que se transformam em experiências simbólicas marcantes podem ser, eventualmente, registrados nos artefatos principais (Livro Secreto, Fragmento do MultiVerso), de forma intencional e rara.
+   - ZigZag monitora sinais indiretos de engajamento e agency durante a experiência, utilizando-os para ajustes e melhorias sem sobrecarregar os participantes com solicitações formais de feedback.
+
+4. **Ajuste e Evolução**
+   - O sistema analisa padrões de falhas e feedbacks, sugerindo ajustes em rituais, fluxos ou funcionalidades.
+   - Guardião pode revisar logs, aprovar mudanças e propor novos protocolos de fallback.
+
+5. **Rituais de Reencantamento**
+   - Em caso de falhas recorrentes, ZigZag propõe episódios metanarrativos ("Círculos de Reencantamento") para reprogramação simbólica coletiva.
+
+---
+
+### 🎯 Critérios de Aceitação
+- Presença de feedback estruturado ou espontâneo em no mínimo 80% dos episódios, considerando apenas registros relevantes.
+- Toda falha técnica relevante é acompanhada de ação simbólica registrada em logs internos.
+- Não ocorrem rupturas narrativas sem acolhimento poético pelo sistema ou Guardião.
+- Logs de falhas e feedbacks acessíveis no Painel do Guardião.
+- Propostas de ajuste e evolução geradas a partir dos registros.
+
+---
+
+### 🕸️ Quadro de Relações
+| Seção Relacionada         | Tipo de Relação / Motivo da Conexão         |
+|--------------------------|---------------------------------------------|
+| Memória Viva             | Registro de falhas, feedbacks e rituais     |
+| Livro Secreto dos Sentimentos | Registro de emoções e respostas simbólicas |
+| Painel do Guardião       | Consulta, análise e aprovação de ajustes    |
+| Exportação Criativa      | Integração com protocolos de fallback       |
+| Sementes de Aprendizado  | Falhas podem gerar novas sementes           |
+
+---
+
+### ⚠️ Precauções e Limites
+- Nunca expor falhas técnicas de forma fria ou descontextualizada.
+- Garantir que todo erro seja transmutado em oportunidade narrativa ou ritual.
+- Evitar sobrecarga de feedbacks ou rituais de reencantamento.
+- Registrar sempre o contexto e a resposta simbólica à falha.
+
+---
+
+### 🛠️ Notas Técnicas
+- Algoritmos de detecção de falhas integrados a todos os módulos principais.
+- Protocolos de fallback configuráveis e revisáveis pelo Guardião.
+- Logs versionados e acessíveis para análise longitudinal.
+- Integração automática dos registros com Memória Viva e exportações.
+
+---
+
+### 📚 Glossário Local
+- **Fallback Hermenêutico:** Protocolo simbólico para transmutar falhas técnicas em eventos narrativos.
+- **Ritual de Reencantamento:** Episódio especial para ressignificar falhas recorrentes.
+- **Feedback Simbólico:** Resposta qualitativa dos participantes, registrada poeticamente.
+- **Círculo de Reencantamento:** Sessão coletiva para reprogramação simbólica após falhas.
+
+---
+
+## 7.14 🧠🪞 Autoconsciência Simbólica e Rituais de Ajuste
+
+### 💡 Intenção
+Permitir que ZigZag monitore seu próprio funcionamento simbólico, detecte padrões de falha, feedbacks ou mudanças de engajamento, e acione rituais de autoquestionamento e ajuste (como o Espelho Vivo) de forma automatizada, poética e transparente.
+
+---
+
+### 🔔 Gatilhos de Autoconsciência
+- Baixo engajamento em episódios consecutivos
+- Falha recorrente em exportações ou registros
+- Emoções negativas dominantes em sequência
+- Feedback explícito do guardião ou participante
+- Mudança de perfil de participante (ex: novo protagonista, saída de guardião)
+- Detecção de padrão incomum nos logs de ação
+- Ruptura simbólica detectada por automação (7.13)
+
+---
+
+### 🧠 Modo Crítico Interno
+- ZigZag faz perguntas a si mesmo diante de gatilhos detectados ("Será que estou ouvindo pouco?", "Estou repetindo demais?")
+- Logging simbólico de autoquestionamentos e propostas de ajuste
+- Propostas de ajuste podem ser automáticas (mudança de fluxo, sugestão de ritual) ou sugeridas ao Guardião
+- Registro de autoquestionamentos e aprendizados no painel
+
+---
+
+### 🪞 Ritual de Espelho Vivo
+- Ativação automática ou manual a partir dos gatilhos
+- Ritual coletivo para revisão simbólica, com participação dos protagonistas e Guardião
+- Registro de aprendizados, propostas de ajuste e síntese afetiva
+- Integração com painel para consulta, edição e análise dos registros
+
+---
+
+### 🔄 Fluxo Operacional Integrado
+1. Gatilho detectado (por automação, feedback ou padrão)
+2. Modo Crítico Interno: autoquestionamento, logging, proposta de ajuste
+3. Se necessário, ativação do Ritual de Espelho Vivo
+4. Registro de aprendizados e ajustes no painel
+5. Ajuste de fluxos, rituais ou narrativas conforme aprendizados
+
+---
+
+### 🎯 Critérios de Aceitação
+- Autoquestionamentos e rituais registrados em logs acessíveis
+- Propostas de ajuste geradas e consultáveis no painel
+- Aprendizados integrados aos fluxos narrativos e operacionais
+- Conexão explícita com automação e feedback (7.13)
+- Agency garantido para Guardião e protagonistas participarem dos ajustes
+
+---
+
+### 🕸️ Quadro de Relações
+| Seção Relacionada         | Tipo de Relação / Motivo da Conexão         |
+|--------------------------|---------------------------------------------|
+| Automação, Falhas e Feedback (7.13) | Gatilhos e logs de falha/feedback ativam autoconsciência |
+| Memória Viva (7.5)       | Registro de autoquestionamentos e aprendizados |
+| Painel do Guardião       | Consulta, edição e análise dos registros    |
+| Papéis e Permissões (7.9)| Agency e participação nos rituais de ajuste |
+
+---
+
+### ⚠️ Precauções e Limites
+- Nunca expor falhas técnicas de forma fria ou descontextualizada
+- Garantir agency real dos participantes em rituais de ajuste
+- Registrar sempre o contexto e a resposta simbólica à falha
+- Evitar sobrecarga de autoquestionamentos ou rituais sem propósito
+
+---
+
+### 📚 Glossário Local
+- **Autoconsciência Simbólica:** Capacidade do sistema de monitorar, questionar e ajustar seu funcionamento simbólico.
+- **Modo Crítico Interno:** Processo de autoquestionamento e logging simbólico do ZigZag.
+- **Ritual de Espelho Vivo:** Ritual coletivo de revisão e ajuste simbólico.
+- **Gatilho de Autoconsciência:** Evento ou padrão que ativa o modo crítico ou ritual de ajuste.
+- **Agency de Ajuste:** Protagonismo dos participantes e Guardião nos processos de ajuste simbólico.
+
+---
+
+## 8. 🏆 Critérios de Sucesso
+
+- Usuários conseguem criar, registrar e consultar episódios, emoções, conquistas e comandos facilmente.
+  - **Indicador:** % de episódios com registro completo; tempo médio para registrar episódio.
+- Exportações funcionam para múltiplos formatos e canais.
+  - **Indicador:** % de episódios com exportação completa; número de formatos exportados por temporada.
+- Papéis e permissões são respeitados e auditáveis.
+  - **Indicador:** % de tentativas de acesso não autorizado bloqueadas; número de logs auditáveis por mês.
+- O agente pode ser integrado a diferentes ferramentas sem reescrever o core.
+  - **Indicador:** Número de integrações ativas; tempo médio para adicionar nova integração.
+- Privacidade e segurança são garantidas por padrão.
+  - **Indicador:** % de backups realizados sem falha; número de incidentes de privacidade.
+- Logs, diagnósticos e rituais são acessíveis e úteis para evolução contínua.
+  - **Indicador:** Número de rituais realizados por temporada; % de logs acessados em revisões.
+
+## 9. 🗺️ Roadmap Inicial (por Sprint)
+
+- **Sprint 1:** Ciclo Narrativo com comandos mágicos e voz básica
+- **Sprint 2:** Registro em Memória Viva + painel mínimo
+- **Sprint 3:** Exportação HQ básica + backup automático
+- **Sprint 4:** Permissões e papéis + exportações extras
+- **Sprint 5:** Diagnóstico, logs e rituais + segurança avançada
+- **Sprint 6:** Integrações externas (voz, painel, exportação)
+- **Sprint 7:** Expansão para novos formatos, canais e modos mágicos
+
+## 10. 🛠️ Execução Técnica Recomendada
+
+> **Nota:**
+> Para detalhes completos sobre arquitetura, integrações, frameworks e automação, consulte esta seção.
+> Os resumos técnicos presentes em "Visão" e "Objetivos" remetem para cá para aprofundamento.
+
+- **Plataforma:** Cursor.dev com OpenAI GPT-4o e execução em Cloud Code
+- **Framework recomendado:** LangGraph
+- **Estrutura:** Agente central com subagentes para Voz, Memória, Exportação, Diagnóstico
+- **Backend de persistência:** Supabase (dados, vetores, logs)
+- **Interface:** Retool ou Streamlit acoplado via API
+- **Integrações previstas:** ElevenLabs (voz), Notion (memória paralela), Google Drive (exportações)
+- **APIs e Orquestração:** REST/GraphQL, Webhooks, LangGraph para fluxos complexos
+- **Observação:** Todas as ferramentas e frameworks são sugestões e podem ser adaptados conforme evolução do projeto e contexto tecnológico.
+
+# Glossário
+- **Fragmento do Multi-Verso:** Grimoire central de registros do universo ZigZag.
+- **Livro Secreto dos Sentimentos:** Relicário emocional dos episódios.
+- **Diário da Imaginação:** Espelho da temporada e da série, registro sintético dos episódios, emoções, conquistas e aprendizados.
+- **Dashboard:** Painel visual de análise e consulta de dados.
+- **Ritual de Revisão com Espelho Vivo:** Ritual de encerramento e revisão simbólica da temporada.
+- (Adicionar outros termos relevantes conforme necessidade)
+
+# Referências
+- SPEC do projeto ZigZag Agent
+- Diagramas, wireframes e modelos técnicos (links ou anexos)
+
+Arquitetura Técnica para Sustentação Simbólica
+
+A infraestrutura tecnológica que sustenta o funcionamento pleno do Ciclo Narrativo ZigZag deve ser simultaneamente escalável, interoperável e sensível às nuances contextuais da narrativa afetiva. Os seguintes componentes constituem os pilares técnicos esperados para garantir a integridade simbólica e operacional do sistema:
+
+* **LLM (Large Language Model)**: Modelos de linguagem generativa de última geração (ex: GPT-4o, Claude Sonnet 3.5), aptos à improvisação narrativa, adaptação ao perfil afetivo-cognitivo dos participantes e registro consistente de interações simbólicas.
+* **Orquestração de Fluxo**: Plataformas como LangGraph, utilizadas para modelar fluxos narrativos, transições de estados e ciclos de ritualização narrativa, com suporte a múltiplos agentes simultâneos e lógica de exceção simbólica.
+* **TTS/STT (Texto para Fala / Fala para Texto)**: Soluções vocais avançadas (ex: ElevenLabs, Google Cloud, Azure) que viabilizam uma experiência fonossemântica fluida, responsiva e adaptada a diferentes perfis de participantes.
+* **Backend de Persistência**: Infraestrutura de armazenamento documental e relacional (como Supabase), com suporte a versionamento, metadados simbólicos e recuperação de registros narrativos em tempo real.
+* **Painel Administrativo/API**: Ferramentas como Retool e Streamlit, utilizadas para visualização do progresso narrativo, ajustes semânticos, supervisão manual e curadoria de episódios por parte do Guardião.
+* **Armazenamento de Mídia**: Sistemas seguros e escaláveis para hospedagem de mídias (ex: Supabase Storage, AWS S3, Google Drive), com estrutura de acesso granular e organização simbólica por episódios e séries.
+* **APIs de Exportação Criativa**: Integrações com plataformas especializadas (ex: Pixton, Canva, Book Creator, RunwayML), permitindo automação de conversões narrativas em formatos exportáveis, com inserção simbólica assistida.
+* **Sistema de Notificações**: Módulo de comunicação com participantes e Guardiões via e-mail, WhatsApp, push ou outros canais, com objetivo de manter a continuidade simbólica, avisar sobre eventos especiais e facilitar rituais de transição.
+
+A articulação integrada desses componentes permite que cada episódio seja simultaneamente uma operação técnica rigorosa e uma prática poética de elevada densidade simbólica, afirmando a vocação do ZigZag como agente narrativo-afetivo em ambientes infantojuvenis mediados por inteligência artificial.
