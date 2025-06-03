@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ZigZag Agent
 
 O ZigZag Agent é um agente simbólico, afetivo e improvisador, projetado para criar, preservar e evoluir memórias mágicas e narrativas vivas. ZigZag une tecnologia, imaginação e afeto para proporcionar experiências únicas a protagonistas, guardiões e convidados.
@@ -46,3 +47,4 @@ O ZigZag Agent é um agente simbólico, afetivo e improvisador, projetado para c
 ---
 
 > Para detalhes completos, consulte o [`ZigZag_Agent_SPEC.md`](./ZigZag_Agent_SPEC.md) e os apêndices temáticos. 
+=======
